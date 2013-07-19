@@ -1,0 +1,462 @@
+html, body, div, span, applet, object, iframe,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+#header {
+  background-image: url("header.png");
+  height: 141px;
+  width: 1006px;
+  margin: 0 auto;
+}
+
+#container {
+  background: url("background.png") no-repeat;
+  width: 1006px;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #666666;
+  padding-top: 10px;
+}
+
+#footer {
+  background-image: url("footer.png");
+  height: 75px;
+  width: 1006px;
+  margin: 0 auto;
+}
+
+.radioButton {
+  background-image: url("radioButton.png");
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin: 5px auto;
+}
+
+.radioButton:hover {
+  background-image: url("radioButtonHover.png");
+}
+
+.ppsCheckingCheckBox {
+  background-image: url("circle-bullet-point.png");
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
+}
+
+.ppsCheckingCheckBox:hover {
+  background-image: url("circle-bullet-point-filled.png");
+}
+
+.ppsSavingsCheckBox {
+  background-image: url("circle-bullet-point.png");
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
+}
+
+.ppsSavingsCheckBox:hover {
+  background-image: url("circle-bullet-point-filled.png");
+}
+
+.ppsServicesCheckBox {
+  background-image: url("circle-bullet-point.png");
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
+}
+
+.ppsServicesCheckBox:hover {
+  background-image: url("circle-bullet-point-filled.png");
+}
+
+.bpsCheckingCheckBox {
+  background-image: url("circle-bullet-point.png");
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
+}
+
+.bpsCheckingCheckBox:hover {
+  background-image: url("circle-bullet-point-filled.png");
+}
+
+.bpsSavingsCheckBox {
+  background-image: url("circle-bullet-point.png");
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
+}
+
+.bpsSavingsCheckBox:hover {
+  background-image: url("circle-bullet-point-filled.png");
+}
+
+.bpsServicesCheckBox {
+  background-image: url("circle-bullet-point.png");
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
+}
+
+.bpsServicesCheckBox:hover {
+  background-image: url("circle-bullet-point-filled.png");
+}
+
+#mainMenu {
+  height: 600px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#personalProductsAndServices {
+  width: 225px;
+  height: 250px;
+  float: left;
+  padding: 20px;
+  color: #00704a;
+  text-align: center;
+}
+
+#personalProductsAndServices img{
+  padding: 10px;
+}
+
+#businessProductsAndServices {
+  width: 225px;
+  height: 250px;
+  float: left;
+  padding: 20px;
+  color: #00704a;
+  text-align: center;
+}
+
+#businessProductsAndServices img{
+  padding: 10px;
+}
+
+#trustServices {
+  width: 225px;
+  height: 250px;
+  float: left;
+  padding: 20px;
+  color: #00704a;
+  text-align: center;
+}
+
+#trustServices img{
+  padding: 10px;
+}
+
+#ppsCategories{
+  height: 600px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+#bpsCategories{
+  height: 600px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+.category {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+  color: #00704a;
+  text-align: center;
+}
+
+#ppsOptionsChecking{
+  height: 600px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+#ppsOptionsSavings{
+  height: 650px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+#ppsOptionsServices{
+  height: 700px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+#bpsChecking {
+  padding-left: 150px;
+}
+
+#bpsOptionsChecking{
+  height: 600px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+#bpsOptionsSavings{
+  height: 650px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+#bpsOptionsServices{
+  height: 700px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
+.option {
+  padding: 10px;
+  color: #00704a;
+  text-align: left;
+  list-style-type: none;
+}
+
+#ppsCheckingCompareButton {
+  width: 200px;
+  margin: 0 auto;
+  color: #00704a;
+}
+
+#ppsSavingsCompareButton {
+  width: 200px;
+  margin: 0 auto;
+  color: #00704a;
+}
+
+#ppsServicesCompareButton {
+  width: 200px;
+  margin: 0 auto;
+  color: #00704a;
+}
+
+#bpsCheckingCompareButton {
+  width: 200px;
+  margin: 0 auto;
+  color: #00704a;
+}
+
+#bpsSavingsCompareButton {
+  width: 200px;
+  margin: 0 auto;
+  color: #00704a;
+}
+
+#bpsServicesCompareButton {
+  width: 200px;
+  margin: 0 auto;
+  color: #00704a;
+}
+
+#ppsComparisonTable {
+  border-spacing: 10px 1px;
+  margin: 0 auto;
+}
+
+#bpsComparisonTable {
+  border-spacing: 10px 1px;
+  margin: 0 auto;
+}
+
+th, td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.freeCheckingComparisonInfo, .greenChoiceCheckingComparisonInfo, .freeSeniorCheckingComparisonInfo, .freeStudentCheckingComparisonInfo, .classicChoiceCheckingComparisonInfo, .fidelityChoiceCheckingComparisonInfo{
+  display: none;
+  width: 300px;
+}
+
+td.freeCheckingComparisonInfo, td.greenChoiceCheckingComparisonInfo, td.freeSeniorCheckingComparisonInfo, td.freeStudentCheckingComparisonInfo, td.classicChoiceCheckingComparisonInfo, td.fidelityChoiceCheckingComparisonInfo{
+  text-align: left;
+  background-color: #eee;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+th.freeCheckingComparisonInfo, th.greenChoiceCheckingComparisonInfo, th.freeSeniorCheckingComparisonInfo, th.freeStudentCheckingComparisonInfo, th.classicChoiceCheckingComparisonInfo, th.fidelityChoiceCheckingComparisonInfo{
+  height: 50px;
+  color: #00704a;
+  vertical-align:bottom;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
+.statementSavingsComparisonInfo, .optimumChoiceSavingsComparisonInfo, .choicePerformanceSavingsComparisonInfo, .christmasClubComparisonInfo, .allPurposeClubComparisonInfo, .greenTeamSavingsComparisonInfo, .scholarSavingsComparisonInfo, .moneyMarketComparisonInfo, .choiceMoneyMarketComparisonInfo, .advantageMoneyMarketComparisonInfo{
+  display: none;
+  width: 300px;
+}
+
+td.statementSavingsComparisonInfo, td.optimumChoiceSavingsComparisonInfo, td.choicePerformanceSavingsComparisonInfo, td.christmasClubComparisonInfo, td.allPurposeClubComparisonInfo, td.greenTeamSavingsComparisonInfo, td.scholarSavingsComparisonInfo, td.moneyMarketComparisonInfo, td.choiceMoneyMarketComparisonInfo, td.advantageMoneyMarketComparisonInfo{
+  text-align: left;
+  background-color: #eee;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+th.statementSavingsComparisonInfo, th.optimumChoiceSavingsComparisonInfo, th.choicePerformanceSavingsComparisonInfo, th.christmasClubComparisonInfo, th.allPurposeClubComparisonInfo, th.greenTeamSavingsComparisonInfo, th.scholarSavingsComparisonInfo, th.moneyMarketComparisonInfo, th.choiceMoneyMarketComparisonInfo, th.advantageMoneyMarketComparisonInfo{
+  height: 50px;
+  color: #00704a;
+  vertical-align:bottom;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
+.webBillPayComparisonInfo, .ezStatementComparisonInfo, .fidelityTelephoneLinkComparisonInfo, .fidelityVisaCheckCardComparisonInfo, .popMoneyComparisonInfo, .mobileMoneyComparisonInfo, .onlineBankingComparisonInfo, .overdraftProtectionComparisonInfo, .wireTransfersComparisonInfo, .moneyOrdersComparisonInfo, .cashiersChecksComparisonInfo{
+  display: none;
+  width: 300px;
+}
+
+td.webBillPayComparisonInfo, td.ezStatementComparisonInfo, td.fidelityTelephoneLinkComparisonInfo, td.fidelityVisaCheckCardComparisonInfo, td.popMoneyComparisonInfo, td.mobileMoneyComparisonInfo, td.onlineBankingComparisonInfo, td.overdraftProtectionComparisonInfo, td.wireTransfersComparisonInfo, td.moneyOrdersComparisonInfo, td.cashiersChecksComparisonInfo{
+  text-align: left;
+  background-color: #eee;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+th.webBillPayComparisonInfo, th.ezStatementComparisonInfo, th.fidelityTelephoneLinkComparisonInfo, th.fidelityVisaCheckCardComparisonInfo, th.popMoneyComparisonInfo, th.mobileMoneyComparisonInfo, th.onlineBankingComparisonInfo, th.overdraftProtectionComparisonInfo, th.wireTransfersComparisonInfo, th.moneyOrdersComparisonInfo, th.cashiersChecksComparisonInfo{
+  height: 50px;
+  color: #00704a;
+  vertical-align:bottom;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
+.businessAnalysisCheckingComparisonInfo, .businessInterestCheckingComparisonInfo, .communityFirstNonProfitCheckingComparisonInfo, .freeBusinessCheckingComparisonInfo, .IOLTACheckingComparisonInfo, .fidelityMuniChoiceCheckingComparisonInfo{
+  display: none;
+  width: 300px;
+}
+
+td.businessAnalysisCheckingComparisonInfo, td.businessInterestCheckingComparisonInfo, td.communityFirstNonProfitCheckingComparisonInfo, td.freeBusinessCheckingComparisonInfo, td.IOLTACheckingComparisonInfo, td.fidelityMuniChoiceCheckingComparisonInfo{
+  text-align: left;
+  background-color: #eee;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+th.businessAnalysisCheckingComparisonInfo, th.businessInterestCheckingComparisonInfo, th.communityFirstNonProfitCheckingComparisonInfo, th.freeBusinessCheckingComparisonInfo, th.IOLTACheckingComparisonInfo, th.fidelityMuniChoiceCheckingComparisonInfo{
+  height: 50px;
+  color: #00704a;
+  vertical-align:bottom;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
+.businessSavingsAccountComparisonInfo, .optimumChoiceSavingsComparisonInfo {
+  display: none;
+  width: 300px;
+}
+
+td.businessSavingsAccountComparisonInfo, td.optimumChoiceSavingsComparisonInfo {
+  text-align: left;
+  background-color: #eee;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+th.businessSavingsAccountComparisonInfo, th.optimumChoiceSavingsComparisonInfo {
+  height: 50px;
+  color: #00704a;
+  vertical-align:bottom;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
+.accountRequirements {
+  text-align: left;
+  width: 180px;
+}
+
+th.accountRequirements{
+  line-height: 30px;
+  font-size: 15px;
+  height: 50px;
+  margin: 18px 0px;
+  vertical-align:bottom;
+  font-weight: bold;
+}
+
+td.accountRequirements {
+  background-color: #2E6444;
+  color: #FFF;
+  border-color: #fff;
+  border-bottom-style:solid;
+  border-width: 1px;
+  font-size: 13px;
+}
+
+.openAccount {
+  font-size: 14px !important;
+  padding: 30px 10px !important;
+  background-color: #fff !important;
+  text-align: center !important;
+}
+
+#ppsCheckingComparison, #ppsSavingsComparison, #ppsServicesComparison, #bpsCheckingComparison, #bpsServicesComparison, #bpsServicesComparison {
+  padding-top: 30px;
+}
+
+#startOver {
+  display: block;
+  padding: 20px;
+}
+
+#fidelityVisaCheckCardComparisonInfo > table > td {
+border-collapse: collapse;
+  border: 1px solid #AAA;
+}
