@@ -6,8 +6,10 @@ $(document).ready(function(){
     $("#ppsCategories").hide();
     $("#ppsOptionsChecking").hide();
     $("#ppsOptionsSavings").hide();
+    $("#ppsOptionsLoans").hide();
     $("#ppsOptionsServices").hide();
     $("#ppsCheckingComparison").hide();
+    $("#ppsLoansComparison").hide();
     $("#ppsSavingsComparison").hide();
     $("#ppsServicesComparison").hide();
     
@@ -15,6 +17,7 @@ $(document).ready(function(){
     $("#bpsOptionsChecking").hide();
     $("#bpsOptionsSavings").hide();
     $("#bpsOptionsServices").hide();
+    $("#bpsOptionsSolutions").hide();
     $("#bpsCheckingComparison").hide();
     $("#bpsSavingsComparison").hide();
     $("#bpsServicesComparison").hide();
@@ -50,6 +53,11 @@ $(document).ready(function(){
       $("#ppsOptionsSavings").fadeIn();
     });
     
+    $('#ppsLoansCategoryButton').click(function(){
+      $("#ppsCategories").fadeOut();
+      $("#ppsOptionsLoans").fadeIn();
+    });
+    
     $('#ppsServicesCategoryButton').click(function(){
       $("#ppsCategories").fadeOut();
       $("#ppsOptionsServices").fadeIn();
@@ -70,6 +78,11 @@ $(document).ready(function(){
       $("#bpsOptionsServices").fadeIn();
     });
     
+    $('#bpsSolutionsCategoryButton').click(function(){
+      $("#bpsCategories").fadeOut();
+      $("#bpsOptionsSolutions").fadeIn();
+    });
+    
     // Step 3 Compare Button for Personal Products and Services
     $('#ppsCheckingCompareButton').click(function(){
       $("#ppsOptionsChecking").fadeOut();
@@ -79,6 +92,11 @@ $(document).ready(function(){
     $('#ppsSavingsCompareButton').click(function(){
       $("#ppsOptionsSavings").fadeOut();
       $("#ppsSavingsComparison").fadeIn();
+    });
+    
+    $('#ppsLoansCompareButton').click(function(){
+      $("#ppsOptionsLoans").fadeOut();
+      $("#ppsLoansComparison").fadeIn();
     });
     
     $('#ppsServicesCompareButton').click(function(){
@@ -228,6 +246,57 @@ $(document).ready(function(){
         }
     });
  
+    $('.ppsLoansCheckBox').click(function(){
+       if(!$(this).is('.chosen')){
+           if (comparisonList.length < maxCompare){
+             $(this).css('background-image', 'url(circle-bullet-point-filled.png)').addClass('chosen');
+             comparisonList.push($(this).attr("id"));
+             if ($(this).attr('id') == $('#autoLoansLoanOption').attr('id')){
+               $('.autoLoansLoanOptionComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#homeEquityLoansLoanOption').attr('id')){
+               $('.homeEquityLoansLoanOptionComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#linesOfCreditLoanOption').attr('id')){
+               $('.linesOfCreditLoanOptionComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#mortgageLoansLoanOption').attr('id')){
+               $('.mortgageLoansLoanOptionComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#personalLoansLoanOption').attr('id')){
+               $('.personalLoansLoanOptionComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#studentLoansLoanOption').attr('id')){
+               $('.studentLoansLoanOptionComparisonInfo').show();
+             }
+           }
+           else{
+            alert('You\'ve reached the maximum number of options to compare. Please unselect an option.');
+           }
+        }else {
+           $(this).css('background-image', 'url(circle-bullet-point.png)').removeClass('chosen');
+           comparisonList.pop();
+           if ($(this).attr('id') == $('#autoLoansLoanOption').attr('id')){
+              $('.autoLoansLoanOptionComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#homeEquityLoansLoanOption').attr('id')){
+              $('.homeEquityLoansLoanOptionComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#linesOfCreditLoanOption').attr('id')){
+              $('.linesOfCreditLoanOptionComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#mortgageLoansLoanOption').attr('id')){
+              $('.mortgageLoansLoanOptionComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#personalLoansLoanOption').attr('id')){
+              $('.personalLoansLoanOptionComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#studentLoansLoanOption').attr('id')){
+              $('.studentLoansLoanOptionComparisonInfo').hide();
+            }
+        }
+    });
+ 
      $('.ppsServicesCheckBox').click(function(){
        if(!$(this).is('.chosen')){
            if (comparisonList.length < maxCompare){
@@ -253,6 +322,9 @@ $(document).ready(function(){
              }
              else if ($(this).attr('id') == $('#onlineBankingOption').attr('id')){
                $('.onlineBankingComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#overdraftProtectionOption').attr('id')){
+               $('.overdraftProtectionComparisonInfo').show();
              }
              else if ($(this).attr('id') == $('#wireTransfersOption').attr('id')){
                $('.wireTransfersComparisonInfo').show();
@@ -296,6 +368,9 @@ $(document).ready(function(){
             }
             else if ($(this).attr('id') == $('#onlineBankingOption').attr('id')){
               $('.onlineBankingComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#overdraftProtectionOption').attr('id')){
+              $('.overdraftProtectionComparisonInfo').hide();
             }
             else if ($(this).attr('id') == $('#wireTransfersOption').attr('id')){
               $('.wireTransfersComparisonInfo').hide();
@@ -371,6 +446,15 @@ $(document).ready(function(){
              else if ($(this).attr('id') == $('#optimumChoiceSavingsOption').attr('id')){
                $('.optimumChoiceSavingsComparisonInfo').show();
              }
+             else if ($(this).attr('id') == $('#advantageMoneyMarketOption').attr('id')){
+               $('.advantageMoneyMarketComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#businessMoneyMarketOption').attr('id')){
+               $('.businessMoneyMarketComparisonInfo').show();
+             }
+             else if ($(this).attr('id') == $('#certificatesOfDepositOption').attr('id')){
+               $('.certificatesOfDepositComparisonInfo').show();
+             }
            }
            else{
             alert('You\'ve reached the maximum number of options to compare. Please unselect an option.');
@@ -383,6 +467,15 @@ $(document).ready(function(){
             }
             else if ($(this).attr('id') == $('#optimumChoiceSavingsOption').attr('id')){
               $('.optimumChoiceSavingsComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#advantageMoneyMarketOption').attr('id')){
+              $('.advantageMoneyMarketComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#businessMoneyMarketOption').attr('id')){
+              $('.businessMoneyMarketComparisonInfo').hide();
+            }
+            else if ($(this).attr('id') == $('#certificatesOfDepositOption').attr('id')){
+              $('.certificatesOfDepositComparisonInfo').hide();
             }
         }
     });
@@ -442,6 +535,7 @@ $(document).ready(function(){
      $("#ppsCategories").hide();
      $("#ppsOptions").hide();
      $("#ppsCheckingComparison").hide();
+     $("#ppsLoansComparison").hide();
      $("#ppsSavingsComparison").hide();
      $("#ppsServicesComparison").hide();
     

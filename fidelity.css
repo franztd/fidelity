@@ -88,6 +88,19 @@ h3 {
   background-image: url("circle-bullet-point-filled.png");
 }
 
+.ppsLoansCheckBox {
+  background-image: url("circle-bullet-point.png");
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
+}
+
+.ppsLoansCheckBox:hover {
+  background-image: url("circle-bullet-point-filled.png");
+}
+
 .ppsServicesCheckBox {
   background-image: url("circle-bullet-point.png");
   cursor: pointer;
@@ -138,6 +151,14 @@ h3 {
 
 .bpsServicesCheckBox:hover {
   background-image: url("circle-bullet-point-filled.png");
+}
+
+.bpsSolutionsCheckBox {
+  background-image: url("circle-bullet-point-filled.png");
+  height: 12px;
+  width: 12px;
+  margin: 4px 10px;
+  float: left;
 }
 
 #mainMenu {
@@ -222,6 +243,13 @@ h3 {
   padding-top: 20px;
 }
 
+#ppsOptionsLoans{
+  height: 600px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
 #ppsOptionsServices{
   height: 700px;
   margin: 0 auto;
@@ -254,6 +282,13 @@ h3 {
   padding-top: 20px;
 }
 
+#bpsOptionsSolutions{
+  height: 80%px;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 20px;
+}
+
 .option {
   padding: 10px;
   color: #00704a;
@@ -262,6 +297,12 @@ h3 {
 }
 
 #ppsCheckingCompareButton {
+  width: 200px;
+  margin: 0 auto;
+  color: #00704a;
+}
+
+#ppsLoansCompareButton {
   width: 200px;
   margin: 0 auto;
   color: #00704a;
@@ -333,6 +374,27 @@ th.freeCheckingComparisonInfo, th.greenChoiceCheckingComparisonInfo, th.freeSeni
   padding-bottom: 3px;
 }
 
+.autoLoansLoanOptionComparisonInfo, .homeEquityLoansLoanOptionComparisonInfo, .linesOfCreditLoanOptionComparisonInfo, .mortgageLoansLoanOptionComparisonInfo, .personalLoansLoanOptionComparisonInfo, .studentLoansLoanOptionComparisonInfo{
+  display: none;
+  width: 300px;
+}
+
+td.autoLoansLoanOptionComparisonInfo, td.homeEquityLoansLoanOptionComparisonInfo, td.linesOfCreditLoanOptionComparisonInfo, td.mortgageLoansLoanOptionComparisonInfo, td.personalLoansLoanOptionComparisonInfo, td.studentLoansLoanOptionComparisonInfo{
+  text-align: left;
+  background-color: #eee;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+th.autoLoansLoanOptionComparisonInfo, th.homeEquityLoansLoanOptionComparisonInfo, th.linesOfCreditLoanOptionComparisonInfo, th.mortgageLoansLoanOptionComparisonInfo, th.personalLoansLoanOptionComparisonInfo, th.studentLoansLoanOptionComparisonInfo{
+  height: 50px;
+  color: #00704a;
+  vertical-align:bottom;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
 .statementSavingsComparisonInfo, .optimumChoiceSavingsComparisonInfo, .choicePerformanceSavingsComparisonInfo, .christmasClubComparisonInfo, .allPurposeClubComparisonInfo, .greenTeamSavingsComparisonInfo, .scholarSavingsComparisonInfo, .moneyMarketComparisonInfo, .choiceMoneyMarketComparisonInfo, .advantageMoneyMarketComparisonInfo{
   display: none;
   width: 300px;
@@ -396,19 +458,19 @@ th.businessAnalysisCheckingComparisonInfo, th.businessInterestCheckingComparison
   padding-bottom: 3px;
 }
 
-.businessSavingsAccountComparisonInfo, .optimumChoiceSavingsComparisonInfo {
+.businessSavingsAccountComparisonInfo, .optimumChoiceSavingsComparisonInfo, .advantageMoneyMarketComparisonInfo, .businessMoneyMarketComparisonInfo, .certificatesOfDepositComparisonInfo {
   display: none;
   width: 300px;
 }
 
-td.businessSavingsAccountComparisonInfo, td.optimumChoiceSavingsComparisonInfo {
+td.businessSavingsAccountComparisonInfo, td.optimumChoiceSavingsComparisonInfo, td.advantageMoneyMarketComparisonInfo, td.businessMoneyMarketComparisonInfo, td.certificatesOfDepositComparisonInfo {
   text-align: left;
   background-color: #eee;
   line-height: 26px;
   font-size: 12px;
 }
 
-th.businessSavingsAccountComparisonInfo, th.optimumChoiceSavingsComparisonInfo {
+th.businessSavingsAccountComparisonInfo, th.optimumChoiceSavingsComparisonInfo, th.advantageMoneyMarketComparisonInfo, th.businessMoneyMarketComparisonInfo, th.certificatesOfDepositComparisonInfo {
   height: 50px;
   color: #00704a;
   vertical-align:bottom;
@@ -447,7 +509,7 @@ td.accountRequirements {
   text-align: center !important;
 }
 
-#ppsCheckingComparison, #ppsSavingsComparison, #ppsServicesComparison, #bpsCheckingComparison, #bpsServicesComparison, #bpsServicesComparison {
+#ppsCheckingComparison, #ppsSavingsComparison, #ppsLoansComparison, #ppsServicesComparison, #bpsCheckingComparison, #bpsServicesComparison, #bpsServicesComparison {
   padding-top: 30px;
 }
 
