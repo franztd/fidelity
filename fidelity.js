@@ -1,122 +1,149 @@
 var comparisonList = new Array();
 var maxCompare = 3;
 
+function hideEverything(){
+  $("#ppsCategories").hide();
+  $("#ppsOptionsChecking").hide();
+  $("#ppsOptionsSavings").hide();
+  $("#ppsOptionsLoans").hide();
+  $("#ppsOptionsServices").hide();
+  $("#ppsCheckingComparison").hide();
+  $("#ppsLoansComparison").hide();
+  $("#ppsSavingsComparison").hide();
+  $("#ppsServicesComparison").hide();
+  $("#bpsCategories").hide();
+  $("#bpsOptionsChecking").hide();
+  $("#bpsOptionsSavings").hide();
+  $("#bpsOptionsServices").hide();
+  $("#bpsOptionsSolutions").hide();
+  $("#bpsCheckingComparison").hide();
+  $("#bpsSavingsComparison").hide();
+  $("#bpsServicesComparison").hide();
+  $("#mainMenu").hide();
+}
+
 $(document).ready(function(){
- 
-    $("#ppsCategories").hide();
-    $("#ppsOptionsChecking").hide();
-    $("#ppsOptionsSavings").hide();
-    $("#ppsOptionsLoans").hide();
-    $("#ppsOptionsServices").hide();
-    $("#ppsCheckingComparison").hide();
-    $("#ppsLoansComparison").hide();
-    $("#ppsSavingsComparison").hide();
-    $("#ppsServicesComparison").hide();
+  $.History.bind('/start',function(state){
+    hideEverything();
+    $("#mainMenu").fadeIn();
+  });
+  window.location.hash = '#/start';
     
-    $("#bpsCategories").hide();
-    $("#bpsOptionsChecking").hide();
-    $("#bpsOptionsSavings").hide();
-    $("#bpsOptionsServices").hide();
-    $("#bpsOptionsSolutions").hide();
-    $("#bpsCheckingComparison").hide();
-    $("#bpsSavingsComparison").hide();
-    $("#bpsServicesComparison").hide();
-    
-    // Three Main Menu Buttons
-    $('#ppsButton').click(function(){
+  // Bind a handler for state: ppsButton
+  $.History.bind('/ppsButton',function(state){
+      // Show ppsButton tab, hide the other tabs
+      hideEverything();
       $("#mainMenu").fadeOut();
       $("#ppsCategories").fadeIn();
-      $("#bpsCategories").fadeOut();
-      $("#tsCategories").fadeOut();
-    });
-    $('#bpsButton').click(function(){
+  });
+    
+  // Bind a handler for state: ppsButton
+  $.History.bind('/bpsButton',function(state){
+      // Show ppsButton tab, hide the other tabs
+      hideEverything();
       $("#mainMenu").fadeOut();
       $("#bpsCategories").fadeIn();
-      $("#tsCategories").fadeOut();
-      $("#ppsCategories").fadeOut();
-    });
-    $('#tsButton').click(function(){
+  });
+    
+  // Bind a handler for state: ppsButton
+  $.History.bind('/tsButton',function(state){
+      // Show ppsButton tab, hide the other tabs
+      hideEverything();
       $("#mainMenu").fadeOut();
       $("#tsCategories").fadeIn();
-      $("#bpsCategories").fadeOut();
-      $("#ppsCategories").fadeOut();
-    });
+  });
     
     // Step 2 Buttons for Personal Products and Services
-    $('#ppsCheckingCategoryButton').click(function(){
-      $("#ppsCategories").fadeOut();
-      $("#ppsOptionsChecking").fadeIn();
+    $.History.bind('/ppsCheckingCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsOptionsChecking").fadeIn();
     });
     
-    $('#ppsSavingsCategoryButton').click(function(){
-      $("#ppsCategories").fadeOut();
-      $("#ppsOptionsSavings").fadeIn();
+    $.History.bind('/ppsSavingsCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsOptionsSavings").fadeIn();
     });
     
-    $('#ppsLoansCategoryButton').click(function(){
-      $("#ppsCategories").fadeOut();
-      $("#ppsOptionsLoans").fadeIn();
+    $.History.bind('/ppsLoansCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsOptionsLoans").fadeIn();
     });
     
-    $('#ppsServicesCategoryButton').click(function(){
-      $("#ppsCategories").fadeOut();
-      $("#ppsOptionsServices").fadeIn();
+    $.History.bind('/ppsServicesCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsOptionsServices").fadeIn();
     });
     
-    $('#bpsCheckingCategoryButton').click(function(){
-      $("#bpsCategories").fadeOut();
-      $("#bpsOptionsChecking").fadeIn();
+    $.History.bind('/bpsCheckingCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#bpsOptionsChecking").fadeIn();
     });
     
-    $('#bpsSavingsCategoryButton').click(function(){
-      $("#bpsCategories").fadeOut();
-      $("#bpsOptionsSavings").fadeIn();
+    $.History.bind('/bpsSavingsCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#bpsOptionsSavings").fadeIn();
     });
     
-    $('#bpsServicesCategoryButton').click(function(){
-      $("#bpsCategories").fadeOut();
-      $("#bpsOptionsServices").fadeIn();
+    $.History.bind('/bpsServicesCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#bpsOptionsServices").fadeIn();
     });
     
-    $('#bpsSolutionsCategoryButton').click(function(){
-      $("#bpsCategories").fadeOut();
-      $("#bpsOptionsSolutions").fadeIn();
+    $.History.bind('/bpsSolutionsCategoryButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#bpsOptionsSolutions").fadeIn();
+        $("#bpsSolutionsComparisonTable").fadeIn();
     });
     
     // Step 3 Compare Button for Personal Products and Services
-    $('#ppsCheckingCompareButton').click(function(){
-      $("#ppsOptionsChecking").fadeOut();
-      $("#ppsCheckingComparison").fadeIn();
+    $.History.bind('/ppsCheckingCompareButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsCheckingComparison").fadeIn();
+    });
+
+    $.History.bind('/ppsSavingsCompareButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsSavingsComparison").fadeIn();
     });
     
-    $('#ppsSavingsCompareButton').click(function(){
-      $("#ppsOptionsSavings").fadeOut();
-      $("#ppsSavingsComparison").fadeIn();
+    $.History.bind('/ppsLoansCompareButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsLoansComparison").fadeIn();
     });
     
-    $('#ppsLoansCompareButton').click(function(){
-      $("#ppsOptionsLoans").fadeOut();
-      $("#ppsLoansComparison").fadeIn();
+    $.History.bind('/ppsServicesCompareButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#ppsServicesComparison").fadeIn();
     });
     
-    $('#ppsServicesCompareButton').click(function(){
-      $("#ppsOptionsServices").fadeOut();
-      $("#ppsServicesComparison").fadeIn();
+    $.History.bind('/bpsCheckingCompareButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#bpsCheckingComparison").fadeIn();
     });
     
-    $('#bpsCheckingCompareButton').click(function(){
-      $("#bpsOptionsChecking").fadeOut();
-      $("#bpsCheckingComparison").fadeIn();
+    $.History.bind('/bpsSavingsCompareButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#bpsSavingsComparison").fadeIn();
     });
     
-    $('#bpsSavingsCompareButton').click(function(){
-      $("#bpsOptionsSavings").fadeOut();
-      $("#bpsSavingsComparison").fadeIn();
-    });
-    
-    $('#bpsServicesCompareButton').click(function(){
-      $("#bpsOptionsServices").fadeOut();
-      $("#bpsServicesComparison").fadeIn();
+    $.History.bind('/bpsServicesCompareButton',function(state){
+        // Show ppsButton tab, hide the other tabs
+        hideEverything();
+        $("#bpsServicesComparison").fadeIn();
     });
     
     // Handle what occurs when a checkbox is clicked on
@@ -544,5 +571,9 @@ $(document).ready(function(){
      $("#bpsCheckingComparison").hide();
      $("#bpsServicesComparison").hide();
      $("#mainMenu").fadeIn();
+  });
+  
+  $('#back').click(function(){
+    window.history.back(-1);
   });
 });

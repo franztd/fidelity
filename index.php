@@ -4,6 +4,7 @@
     <title>Fidelity</title>
     <link type="text/css" rel="stylesheet" href="fidelity.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
+    <script src="jquery.history.js" type="text/javascript"></script>
     <script src="fidelity.js" type="text/javascript"></script>
   </head>
   <body>
@@ -13,31 +14,31 @@
       <h1>Welcome To The Fidelity Bank Vault.</h1>
       <h3>The Fidelity Bank Vault is a tool containing a collection of Fidelity Bank products and services which allow you to compare and select what's right for you.</h3>
       <p class="pleaseChoose">Please Choose One</p>
-      <div id="personalProductsAndServices"><img src="ppsLarge.png" id="ppsLarge" />PERSONAL PRODUCTS AND SERVICES<div id="ppsButton" class="radioButton">&nbsp;</div></div>
-      <div id="businessProductsAndServices"><img src="bpsLarge.png" id="bpsLarge" />BUSINESS PRODUCTS AND SERVICES<div id="bpsButton" class="radioButton">&nbsp;</div></div>
-      <div id="trustServices"><img src="tsLarge.png" id="tsLarge" />TRUST SERVICES<br /><br /><div id="tsButton" class="radioButton">&nbsp;</div></div>
+      <div id="personalProductsAndServices"><img src="ppsLarge.png" id="ppsLarge" />PERSONAL PRODUCTS AND SERVICES<a href="#/ppsButton"><div id="ppsButton" class="radioButton"></div></a></div>
+      <div id="businessProductsAndServices"><img src="bpsLarge.png" id="bpsLarge" />BUSINESS PRODUCTS AND SERVICES<a href="#/bpsButton"><div id="bpsButton" class="radioButton"></div></a></div>
+      <div id="trustServices"><img src="tsLarge.png" id="tsLarge" />TRUST SERVICES<a href="http://www.bankatfidelity.com/displayPage.aspx?id=21"><div id="tsButton" class="radioButton"></div></a></div>
     </div>
     
     <div id="ppsCategories">
       <img src="ppsSmall.png" id="ppsSmall"/>
       <h1>Personal Products and Services</h1>
       <p class="pleaseChoose" style="margin-bottom: 0px;padding-top: 30px;">Please Choose One</p>
-      <div id="ppsChecking" class="category">CHECKING<div id="ppsCheckingCategoryButton" class="radioButton"></div></div>
-      <div id="ppsSavings" class="category">SAVINGS<div id="ppsSavingsCategoryButton" class="radioButton"></div></div>
-      <div id="ppsLoans" class="category">LOANS<div id="ppsLoansCategoryButton" class="radioButton"></div></div>
+      <div id="ppsChecking" class="category">CHECKING<a href="#/ppsCheckingCategoryButton"><div id="ppsCheckingCategoryButton" class="radioButton"></div></a></div>
+      <div id="ppsSavings" class="category">SAVINGS<a href="#/ppsSavingsCategoryButton"><div id="ppsSavingsCategoryButton" class="radioButton"></div></a></div>
+      <div id="ppsLoans" class="category">LOANS<a href="#/ppsLoansCategoryButton"><div id="ppsLoansCategoryButton" class="radioButton"></div></a></div>
       <div id="ppsInvestment" class="category">TRUST<a href="http://www.bankatfidelity.com/displayPage.aspx?id=21"><div id="ppsInvestmentCategoryButton" class="radioButton"></div></a></div>
       <div id="ppsDiscontinued" class="category" style="width: 130px;">DISCONTINUED<br /><span style="font-size: 10px; display: block; width: 135px; color: #666;">(Comparison Purposes Only)</span><div id="ppsDiscontinuedCategoryButton" class="radioButton" style="margin: 0 auto;"></div></div>
-      <div id="ppsServices" class="category">SERVICES<div id="ppsServicesCategoryButton" class="radioButton"></div></div>
+      <div id="ppsServices" class="category">SERVICES<a href="#/ppsServicesCategoryButton"><div id="ppsServicesCategoryButton" class="radioButton"></div></a></div>
     </div>
     
     <div id="bpsCategories">
       <img src="bpsSmall.png" id="bpsSmall"/>
       <h1>Business Products and Services</h1>
       <p class="pleaseChoose">Please Choose One</p>
-      <div id="bpsChecking" class="category">Business Checking<div id="bpsCheckingCategoryButton" class="radioButton"></div></div>
-      <div id="bpsSavings" class="category">Business Savings<div id="bpsSavingsCategoryButton" class="radioButton"></div></div>
-      <div id="bpsServices" class="category">Electronic Services<div id="bpsServicesCategoryButton" class="radioButton"></div></div>
-      <div id="bpsServices" class="category">Business Services Solutions<div id="bpsSolutionsCategoryButton" class="radioButton"></div></div>
+      <div id="bpsChecking" class="category">Business Checking<a href="#/bpsCheckingCategoryButton"><div id="bpsCheckingCategoryButton" class="radioButton"></div></a></div>
+      <div id="bpsSavings" class="category">Business Savings<a href="#/bpsSavingsCategoryButton"><div id="bpsSavingsCategoryButton" class="radioButton"></div></a></div>
+      <div id="bpsServices" class="category">Business Services Solutions<a href="#/bpsSolutionsCategoryButton"><div id="bpsSolutionsCategoryButton" class="radioButton"></div></a></div>
+      <div id="bpsServices" class="category">Electronic Services<a href="#/bpsServicesCategoryButton"><div id="bpsServicesCategoryButton" class="radioButton"></div></a></div>
     </div>
     
     <div id="ppsOptionsChecking">
@@ -54,7 +55,7 @@
       <li class="option"><div id="freeStudentCheckingOption" class="ppsCheckingCheckBox"></div>Free Student Checking</li>
       </ul>
       
-      <div id="ppsCheckingCompareButton"><div id="compareCheckingViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div>COMPARE / VIEW</div>
+      <div id="ppsCheckingCompareButton"><a href="#/ppsCheckingCompareButton"><div id="compareCheckingViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div></a>COMPARE / VIEW</div>
     </div>
     
     <div id="ppsOptionsSavings">
@@ -75,7 +76,7 @@
       <li class="option"><div id="statementSavingsOption" class="ppsSavingsCheckBox"></div>Statement Savings</li>
       </ul>
       
-      <div id="ppsSavingsCompareButton"><div id="compareSavingsViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div>COMPARE / VIEW</div>
+      <div id="ppsSavingsCompareButton"><a href="#/ppsSavingsCompareButton"><div id="compareSavingsViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div></a>COMPARE / VIEW</div>
     </div>
     
     <div id="ppsOptionsLoans">
@@ -92,13 +93,13 @@
       <li class="option"><div id="studentLoansLoanOption" class="ppsLoansCheckBox"></div>Student Loans</li>
       </ul>
       
-      <div id="ppsLoansCompareButton"><div id="compareLoansViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div>COMPARE / VIEW</div>
+      <div id="ppsLoansCompareButton"><a href="#/ppsLoansCompareButton"><div id="compareLoansViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div></a>COMPARE / VIEW</div>
     </div>
     
     <div id="ppsOptionsServices">
       <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Personal Products and Services</h1>
-      <p style="clear: left;color: #00704a;">SERVICES</p>
+      <p style="clear: left;color: #00704a;">ELECTRONIC SERVICES</p>
       <p class="pleaseChoose">Please select at least 1</p>
       <ul style="width: 220px;margin: 0 auto;padding-bottom: 50px;font-size: 14px;">
       <li class="option"><div id="cashiersChecksOption" class="ppsServicesCheckBox"></div>Cashier's Checks</li>
@@ -114,7 +115,7 @@
       <li class="option"><div id="wireTransfersOption" class="ppsServicesCheckBox"></div>Wire Transfers</li>
       </ul>
       
-      <div id="ppsServicesCompareButton"><div id="compareServicesViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div>COMPARE / VIEW</div>
+      <div id="ppsServicesCompareButton"><a href="#/ppsServicesCompareButton"><div id="compareServicesViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div></a>COMPARE / VIEW</div>
     </div>
     
     <div id="bpsOptionsChecking">
@@ -125,13 +126,13 @@
       <ul style="width: 220px;margin: 0 auto;padding-bottom: 50px;font-size: 14px;">
       <li class="option"><div id="businessAnalysisCheckingOption" class="bpsCheckingCheckBox"></div>Business Analysis Checking</li>
       <li class="option"><div id="businessInterestCheckingOption" class="bpsCheckingCheckBox"></div>Business Interest Checking</li>
-      <li class="option"><div id="communityFirstNonProfitCheckingOption" class="bpsCheckingCheckBox"></div>Community First Non Profit Checking</li>
+      <li class="option"><div id="communityFirstNonProfitCheckingOption" class="bpsCheckingCheckBox"></div>Community First<br />Non Profit Checking</li>
       <li class="option"><div id="fidelityMuniChoiceCheckingOption" class="bpsCheckingCheckBox"></div>Fidelity Muni Choice Checking</li>
       <li class="option"><div id="freeBusinessCheckingOption" class="bpsCheckingCheckBox"></div>Free Business Checking</li>
       <li class="option"><div id="IOLTACheckingOption" class="bpsCheckingCheckBox"></div>IOLTA Checking</li>
       </ul>
       
-      <div id="bpsCheckingCompareButton"><div id="compareCheckingViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div>COMPARE / VIEW</div>
+      <div id="bpsCheckingCompareButton"><a href="#/bpsCheckingCompareButton"><div id="compareCheckingViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div></a>COMPARE / VIEW</div>
     </div>
     
     <div id="bpsOptionsSavings">
@@ -147,13 +148,13 @@
       <li class="option"><div id="certificatesOfDepositOption" class="bpsSavingsCheckBox"></div>Certificates of Deposit</li>
       </ul>
       
-      <div id="bpsSavingsCompareButton"><div id="compareSavingsViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div>COMPARE / VIEW</div>
+      <div id="bpsSavingsCompareButton"><a href="#/bpsSavingsCompareButton"><div id="compareSavingsViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div></a>COMPARE / VIEW</div>
     </div>
     
     <div id="bpsOptionsServices">
       <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Business Products and Services</h1>
-      <p style="clear: left;color: #00704a;">SERVICES</p>
+      <p style="clear: left;color: #00704a;">ELECTRONIC SERVICES</p>
       <p class="pleaseChoose">Please select at least 1</p>
       <ul style="width: 220px;margin: 0 auto;padding-bottom: 50px;font-size: 14px;">
       <li class="option"><div id="fidelityTelephoneLinkOption" class="bpsServicesCheckBox"></div>Fidelity Telephone Link</li>
@@ -164,27 +165,29 @@
       <li class="option"><div id="wireTransfersOption" class="bpsServicesCheckBox"></div>Wire Transfers</li>
       </ul>
       
-      <div id="bpsServicesCompareButton"><div id="compareServicesViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div>COMPARE / VIEW</div>
+      <div id="bpsServicesCompareButton"><a href="#/bpsServicesCompareButton"><div id="compareServicesViewButton" class="radioButton" style="float: left; margin-top: -3px;"></div></a>COMPARE / VIEW</div>
     </div>
     
     <div id="bpsOptionsSolutions">
       <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Business Products and Services</h1>
       <p style="clear: left;color: #00704a;">SERVICE SOLUTIONS</p>
-      <ul style="width: 220px;margin: 0 auto;padding-bottom: 50px;font-size: 14px;">
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Credit Card Processing<p>Having the ability to accept credit and debit card payments from your customers offerse your business several key benefits. When you accept credit and debit cards, sales can be up to 10% higher. You'll improve cash flow and make your company more consumer-friendly.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Electronic Funds Transfers<p>ACH is a reliable and secure way for your business to easily process receivables. Large volume debits of customers' and vendors' accounts are available to you. Fidelity Bank can help you set up your Electronic Funds Transfers which will save you time and reduce expenses.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Remote Deposit<p>Increase cash flow, reduce expenses and save time for yourself and your employees with Remote Deposit. Scan checks and transmit the images or data back to Fidelity in just a few simple steps. All that's needed is a PC, Internet connection and a scanner.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Wire Transfers<p>Need to transfer a large sum of money electronically? With Wire Transfer services from Fidelity Bank, you can conveniently transfer funds electronically from your Fidelity Bank business account to an account at another financial institution. Wire transfers are the ideal method of payment for large transactions and are safe, simple and efficient.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Reloadable Payroll and Expense Cards<p>Provide your employees payroll or issue expense cards via our MasterCard- based reloadable card solution. What a great way to streamline distribution, bring direct deposit to more employees and control expenses.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Fidelity Visa Credit Cards<p>With purchasing convenience, available credit and detailed reporting, you'll have what you need to nurture your business and help it thrive. </p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Fidelity Visa Business Check Cards<p>Streamline and consolidate your business expenses with a Fidelity Visa Business Check Card- it lets you pay for purchases directly from your business checking account anywhere around the world where Visa is accepted.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Positive Pay Fraud Detection<p>Making sure your finances are protected is our top priority. Postive Pay Fraud Detection protects your transactions by matching your account or check information against a list of checks previously authorized by your organization.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>CDARS<p>CDARS, the Certificate of Deposit Account Registry Service, is one of the most convenient ways to access FDIC insurance on balances greater than $250,000. As a participating organization, Fidelity Bank will work one-on-one with your business to ensure your money is working hard while still benefitting from full FDIC insurance coverage.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Insured Cash Sweep (ICS)<p>You can easily put excess cash balances to work for you through savings accounts and withdraw ICS funds up to six (6) times per month. Plus, make an unlimited number of deposits.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Business Sweeps<p>Make the most of your organization's extra cash while still maintaining liquidity. Fidelity Bank's Business Sweeps service moves excess cash from your business's checking account into a higher earning account like a Money Market account. This means you'll have quick access to cash when you need it most while earning competitive rates on the balance.</p></li>
-      <li class="option"><div class="bpsSolutionsCheckBox"></div>Business Online Banking<p>Fidelity Bank has completely revamped its Business Online Banking system, with a financial management tool that helps you define where expenses are going, single sign onto Web Bill Pay plus other robust tools. Check your business banking account balances, transfer funds and reconcile accounts quickly and easily. Sign up for EZ Statements and pay bills online with Web Bill Pay.</p></li>
-      </ul>
+      <table id="bpsSolutionsComparisonTable" style="clear: both;">
+      
+      <tr><th class="accountRequirements"></th><th class="accountRequirements">Additional Info</th></tr>
+      <tr><td class="creditCardProcessingComparisonInfoFirst"><a href="http://bankatfidelity.com/displayPage.aspx?id=121">Credit Card Processing</a></td></tr>
+      <tr><td class="electronicFundsTransfersComparisonInfoFirst"><a href="http://bankatfidelity.com/displayPage.aspx?id=18">Electronic Funds Transfers</a></td></tr>
+      <tr><td class="remoteDepositComparisonInfoFirst"><a href="http://bankatfidelity.com/displayPage.aspx?id=18">Remote Deposit</a></td></tr>
+      <tr><td class="wireTransfersSolutionComparisonInfoFirst">Wire Transfers</td></tr>
+      <tr><td class="reloadablePayrollandExpenseCardsComparisonInfoFirst"><a href="http://bankatfidelity.com/displayPage.aspx?id=18">Reloadable Payroll and Expense Cards</a></td></tr>
+      <tr><td class="fidelityVisaCreditCardsComparisonInfoFirst">Fidelity Visa Credit Cards</td></tr>
+      <tr><td class="fidelityVisaBusinessCheckCardsComparisonInfoFirst">Fidelity Visa Business Check Cards</td></tr>
+      <tr><td class="positivePayFraudDetectionComparisonInfoFirst"><a href="http://bankatfidelity.com/displayPage.aspx?id=119">Positive Pay Fraud Detection<a/></td></tr>
+      <tr><td class="CDARSComparisonInfoFirst">CDARS</td></tr>
+      <tr><td class="insuredCashSweepComparisonInfoFirst">Insured Cash Sweep (ICS)</td></tr>
+      <tr><td class="businessSweepsComparisonInfoFirst">Business Sweeps</td></tr>
+      <tr><td class="businessOnlineBankingComparisonInfoFirst">Business Online Banking</td></tr>
+    </table>
     </div>
     
     <div id="ppsCheckingComparison">
@@ -278,19 +281,19 @@
         <td class="classicChoiceCheckingComparisonInfo">Two (2) charges reimbursed per calendar month per check card holder.</td>
         <td class="fidelityChoiceCheckingComparisonInfo">Two (2) charges reimbursed per calendar month per check card holder.</td>
         <td class="freeCheckingComparisonInfo">$1.00/transaction</td>
-        <td class="freeSeniorCheckingComparisonInfo">Waived</td>
-        <td class="freeStudentCheckingComparisonInfo">$1.00/transaction</td>
+        <td class="freeSeniorCheckingComparisonInfo">$1.00/transaction</td>
+        <td class="freeStudentCheckingComparisonInfo">Waived</td>
         <td class="greenChoiceCheckingComparisonInfo">Two (2) charges reimbursed per calendar month per check card holder.</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Other bank ATM withdrawal fee</td>
-        <td class="classicChoiceCheckingComparisonInfo">Two (2) charges reimbursed per calendar month per check card holder (other bank's fees may apply)</td>
-        <td class="fidelityChoiceCheckingComparisonInfo">Two (2) charges reimbursed per calendar month per check card holder (other bank's fees may apply)</td>
+        <td class="classicChoiceCheckingComparisonInfo">May Apply</td>
+        <td class="fidelityChoiceCheckingComparisonInfo">May Apply</td>
         <td class="freeCheckingComparisonInfo">N/A</td>
         <td class="freeSeniorCheckingComparisonInfo">N/A</td>
-        <td class="freeStudentCheckingComparisonInfo">N/A</td>
-        <td class="greenChoiceCheckingComparisonInfo">Two (2) charges reimbursed per calendar month per check card holder (other bank's fees may apply)</td>
+        <td class="freeStudentCheckingComparisonInfo">May Apply</td>
+        <td class="greenChoiceCheckingComparisonInfo">May Apply</td>
       </tr>
       
       <tr>
@@ -319,7 +322,7 @@
         <td class="fidelityChoiceCheckingComparisonInfo">Optional</td>
         <td class="freeCheckingComparisonInfo">Optional</td>
         <td class="freeSeniorCheckingComparisonInfo">Optional</td>
-        <td class="freeStudentCheckingComparisonInfo">Optional</td>
+        <td class="freeStudentCheckingComparisonInfo">Required</td>
         <td class="greenChoiceCheckingComparisonInfo">Required</td>
       </tr>
       
@@ -355,12 +358,12 @@
       
       <tr>
         <td class="accountRequirements">Other Features</td>
-        <td class="classicChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks</td>
-        <td class="fidelityChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks</td>
-        <td class="freeCheckingComparisonInfo"></td>
-        <td class="freeSeniorCheckingComparisonInfo"></td>
-        <td class="freeStudentCheckingComparisonInfo"></td>
-        <td class="greenChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks</td>
+        <td class="classicChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks<br />7. BuzzPoints Debit Card Rewards</td>
+        <td class="fidelityChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks<br />7. BuzzPoints Debit Card Rewards</td>
+        <td class="freeCheckingComparisonInfo">1. BuzzPoints Debit Card Rewards</td>
+        <td class="freeSeniorCheckingComparisonInfo">1. Free first year Safe Deposit Box<br />2. BuzzPoints Debit Card Rewards</td>
+        <td class="freeStudentCheckingComparisonInfo">1. BuzzPoints Debit Card Rewards</td>
+        <td class="greenChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks<br />7. BuzzPoints Debit Card Rewards</td>
       </tr>
       
       <tr>
@@ -515,7 +518,7 @@
         <td class="choiceMoneyMarketComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.<br /><sup>1</sup> Fidelity Choice Banking is defined as a Fidelity, Classic or Green Choice Checking account.</td>
         <td class="choicePerformanceSavingsComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
         <td class="christmasClubComparisonInfo">Term is 50 weeks<br />Early withdraw penalty is the greater of $5.00 or seven (7) days interest on the amount withdrawn</td>
-        <td class="greenTeamSavingsComparisonInfo">*APY (Annual Percentage Yield)<br />Rate may change at any time, including after account is opened.<br />Any child that opens a new Green Team Savings Account will receive a free piggy bank as well as invitations to exclusive Green Team events throughout the year.<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
+        <td class="greenTeamSavingsComparisonInfo">*APY (Annual Percentage Yield)<br />Rate may change at any time, including after account is opened.<br />Any child that opens a new Green Team Savings Account will receive a free piggy bank as well as invitations to exclusive Green Team events throughout the year.<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.<br />Once per year, the account will receive a cash deposit equal to 1.00% of the current balance as of the last day of the anniversary month the account was opened, paid to the account on the 15th day of the following month. Maximum cash payout is $10.00 per year. Bonus payout expires when primary owner listed on the account reaches age 19.</td>
         <td class="moneyMarketComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
         <td class="optimumChoiceSavingsComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
         <td class="scholarSavingsComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
@@ -562,7 +565,7 @@
       <tr>
         <td class="accountRequirements">Fees</td>
         <td class="cashiersChecksComparisonInfo">$10 per check; waived on all Fidelity Choice Banking accounts.</td>
-        <td class="ezStatementComparisonInfo">None. Required on Green Choice Checking accounts.</td>
+        <td class="ezStatementComparisonInfo">None. Required on Green Choice and Free Student Checking accounts.</td>
         <td class="fidelityTelephoneLinkComparisonInfo">Stop Payment Request- Fidelity Telephone Link - $10 per request.</td>
         <td class="fidelityVisaCheckCardComparisonInfo">$1 per month; waived on all Fidelity Choice Banking accounts.</td>
         <td class="mobileMoneyComparisonInfo">None; Cell phone providers may charge additional fees for web access and/ or text messaging.</td>
@@ -577,15 +580,15 @@
       <tr>
         <td class="accountRequirements">Eligibility</td>
         <td class="cashiersChecksComparisonInfo">Any customer</td>
-        <td class="ezStatementComparisonInfo">Any customer enrolled in online banking</td>
+        <td class="ezStatementComparisonInfo">Any customer enrolled in Online Banking</td>
         <td class="fidelityTelephoneLinkComparisonInfo">Any customer</td>
-        <td class="fidelityVisaCheckCardComparisonInfo">Any customer with any checking account.</td>
-        <td class="mobileMoneyComparisonInfo">Any customer enrolled in Online Banking.</td>
+        <td class="fidelityVisaCheckCardComparisonInfo">Any customer with any checking account</td>
+        <td class="mobileMoneyComparisonInfo">Any customer enrolled in Online Banking</td>
         <td class="moneyOrdersComparisonInfo">Any customer</td>
         <td class="onlineBankingComparisonInfo">Any customer</td>
-        <td class="overdraftProtectionComparisonInfo">Any customer with any deposit account.</td>
-        <td class="popMoneyComparisonInfo">Any customer enrolled in Online Banking and Web Bill Pay.</td>
-        <td class="webBillPayComparisonInfo">Any customer enrolled in online banking</td>
+        <td class="overdraftProtectionComparisonInfo">Any customer with any deposit account</td>
+        <td class="popMoneyComparisonInfo">Any customer enrolled in Online Banking and Web Bill Pay</td>
+        <td class="webBillPayComparisonInfo">Any customer enrolled in Online Banking</td>
         <td class="wireTransfersComparisonInfo">Any customer</td>
       </tr>
       
@@ -602,7 +605,7 @@
         </td>
         <td class="mobileMoneyComparisonInfo">Mobile Devices Supported - Operating systems including Apple, Android, iOS, Symbian, Windows Mobile, Linux, Palm webOS and Maemo.</td>
         <td class="moneyOrdersComparisonInfo">N/A</td>
-        <td class="onlineBankingComparisonInfo">N/A</td>
+        <td class="onlineBankingComparisonInfo">EZ Statements must be accessed via Online Banking</td>
         <td class="overdraftProtectionComparisonInfo">N/A</td>
         <td class="popMoneyComparisonInfo">N/A</td>
         <td class="webBillPayComparisonInfo">N/A</td>
@@ -622,7 +625,7 @@
       <th class="accountRequirements">Account Requirements</th>
       <th class="businessAnalysisCheckingComparisonInfo">Business Analysis Checking</th>
       <th class="businessInterestCheckingComparisonInfo">Business Interest Checking</th>
-      <th class="communityFirstNonProfitCheckingComparisonInfo">Community First Non Profit Checking</th>
+      <th class="communityFirstNonProfitCheckingComparisonInfo">Community First<br />Non Profit Checking</th>
       <th class="fidelityMuniChoiceCheckingComparisonInfo">Fidelity Muni Choice Checking</th>
       <th class="freeBusinessCheckingComparisonInfo">Free Business Checking</th>
       <th class="IOLTACheckingComparisonInfo">IOLTA Checking</th>
@@ -643,7 +646,7 @@
         <td class="businessAnalysisCheckingComparisonInfo">Earnings Credit *</td>
         <td class="businessInterestCheckingComparisonInfo">$10 (if balance falls below requirement.)</td>
         <td class="communityFirstNonProfitCheckingComparisonInfo">None</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">None</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">$25 (if balance falls below requirement.)</td>
         <td class="freeBusinessCheckingComparisonInfo">None</td>
         <td class="IOLTACheckingComparisonInfo">None</td>
       </tr>
@@ -653,7 +656,7 @@
         <td class="businessAnalysisCheckingComparisonInfo">$1,000</td>
         <td class="businessInterestCheckingComparisonInfo">$100</td>
         <td class="communityFirstNonProfitCheckingComparisonInfo">$100</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">$100</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">$2,500</td>
         <td class="freeBusinessCheckingComparisonInfo">$100</td>
         <td class="IOLTACheckingComparisonInfo">$100</td>
       </tr>
@@ -671,10 +674,10 @@
       <tr>
         <td class="accountRequirements">Transaction limits</td>
         <td class="businessAnalysisCheckingComparisonInfo">None. Per item costs apply.</td>
-        <td class="businessInterestCheckingComparisonInfo">$0.40 per transaction over 350</td>
+        <td class="businessInterestCheckingComparisonInfo">$0.40 per item over 350</td>
         <td class="communityFirstNonProfitCheckingComparisonInfo">None</td>
         <td class="fidelityMuniChoiceCheckingComparisonInfo">None</td>
-        <td class="freeBusinessCheckingComparisonInfo">$0.40 per transaction over 350</td>
+        <td class="freeBusinessCheckingComparisonInfo">N/A</td>
         <td class="IOLTACheckingComparisonInfo">None</td>
       </tr>
       
@@ -701,21 +704,21 @@
       <tr>
         <td class="accountRequirements">Per item costs</td>
         <td class="businessAnalysisCheckingComparisonInfo">Checks drawn- $0.20 ea.<br />Deposit tickets- $0.40 ea.<br />Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00 ea.<br />Stop payment requests- $10.00 ea.</td>
-        <td class="businessInterestCheckingComparisonInfo">Checks drawn- $0.20 ea.<br />Deposit tickets- $0.40 ea.<br />Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00 ea.<br />Paper statements- $3.00 ea.<br />Stop payment requests- $10.00 ea.</td>
+        <td class="businessInterestCheckingComparisonInfo">Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00 ea.<br />Paper statements- $3.00 ea.<br />Stop payment requests- $10.00 ea.</td>
         <td class="communityFirstNonProfitCheckingComparisonInfo">Fees waived</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">Deposit tickets- $0.40 ea.<br />Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00<br />Paper statements- $3.00 ea.<br />Stop payment requests- $10.00</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00<br />Stop payment requests- $10.00</td>
         <td class="freeBusinessCheckingComparisonInfo">Overdrafts- $35.00<br />Stop payment requests- $10.00<br />Domestic Outgoing Wire Transfers- $30.00<br />Paper statements- $3.00</td>
         <td class="IOLTACheckingComparisonInfo">Checks drawn- $0.20 ea.<br />Deposit tickets- $0.40 ea.<br />Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00<br />Paper statements- $3.00 ea.<br />Stop payment requests- $10.00<br />Uncollected funds- $35.00</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Services offered</td>
-        <td class="businessAnalysisCheckingComparisonInfo">Cash Management<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Web Bill Pay</td>
-        <td class="businessInterestCheckingComparisonInfo">Cash Management<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
-        <td class="communityFirstNonProfitCheckingComparisonInfo">Cash Management<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free 1st order of checks (up to $75)<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Free Remote Deposit *<br />Web Bill Pay **</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo"></td>
-        <td class="freeBusinessCheckingComparisonInfo">Free Online Banking<br />Free Personal Wealth Management<br />Remote Deposit<br />Web Bill Pay</td>
-        <td class="IOLTACheckingComparisonInfo">Cash Management<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
+        <td class="businessAnalysisCheckingComparisonInfo">Business Services/Cash Management<br />Free Cash Flow Analysis Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Web Bill Pay</td>
+        <td class="businessInterestCheckingComparisonInfo">Business Services/Cash Management<br />Free Cash Flow Analysis Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
+        <td class="communityFirstNonProfitCheckingComparisonInfo">Business Services/Cash Management<br />Free Cash Flow Analysis Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free 1st order of checks (up to $75)<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Free Remote Deposit *<br />Web Bill Pay **</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">Free Cash Flow Analysis Consultation</td>
+        <td class="freeBusinessCheckingComparisonInfo">Free Cash Flow Analysis Consultation<br />Free Online Banking<br />Free  Personal Wealth Management Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Remote Deposit<br />Web Bill Pay</td>
+        <td class="IOLTACheckingComparisonInfo">Business Services/Cash Management<br />Free Cash Flow Analysis Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
       </tr>
       
       <tr>
@@ -895,7 +898,7 @@
       
     </table>
     </div>
-    
+    <!--<a href="" id="back">Back a Step</a><br>-->
     <a href="" id="startOver">Start Over</a>
   </div>
   <div id="footer"></div>

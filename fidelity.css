@@ -343,6 +343,12 @@ h3 {
   margin: 0 auto;
 }
 
+#bpsSolutionsComparisonTable {
+  border-spacing: 10px;
+  margin: 0 auto;
+  display: none;
+}
+
 #bpsComparisonTable {
   border-spacing: 10px 1px;
   margin: 0 auto;
@@ -474,6 +480,26 @@ th.businessSavingsAccountComparisonInfo, th.optimumChoiceSavingsComparisonInfo, 
   height: 50px;
   color: #00704a;
   vertical-align:bottom;
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 3px;
+}
+
+.creditCardProcessingComparisonInfo, .electronicFundsTransfersComparisonInfo, .remoteDepositComparisonInfo, .wireTransfersComparisonInfo, .reloadablePayrollandExpenseCardsComparisonInfo, .fidelityVisaCreditCardsComparisonInfo, .fidelityVisaBusinessCheckCardsComparisonInfo, .positivePayFraudDetectionComparisonInfo, .CDARSComparisonInfo, .insuredCashSweepComparisonInfo, .businessSweepsComparisonInfo, .businessOnlineBankingComparisonInfo {
+  width: 300px;
+}
+
+td.creditCardProcessingComparisonInfo, td.electronicFundsTransfersComparisonInfo, td.remoteDepositComparisonInfo, td.wireTransfersSolutionComparisonInfo, td.reloadablePayrollandExpenseCardsComparisonInfo, td.fidelityVisaCreditCardsComparisonInfo, td.fidelityVisaBusinessCheckCardsComparisonInfo, td.positivePayFraudDetectionComparisonInfo, td.CDARSComparisonInfo, td.insuredCashSweepComparisonInfo, td.businessSweepsComparisonInfo, td.businessOnlineBankingComparisonInfo {
+  text-align: left;
+  background-color: #eee;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+td.creditCardProcessingComparisonInfoFirst, td.electronicFundsTransfersComparisonInfoFirst, td.remoteDepositComparisonInfoFirst, td.wireTransfersSolutionComparisonInfoFirst, td.reloadablePayrollandExpenseCardsComparisonInfoFirst, td.fidelityVisaCreditCardsComparisonInfoFirst, td.fidelityVisaBusinessCheckCardsComparisonInfoFirst, td.positivePayFraudDetectionComparisonInfoFirst, td.CDARSComparisonInfoFirst, td.insuredCashSweepComparisonInfoFirst, td.businessSweepsComparisonInfoFirst, td.businessOnlineBankingComparisonInfoFirst {
+  height: 50px;
+  color: #00704a;
+  vertical-align: top;
   font-weight: bold;
   font-size: 17px;
   padding-bottom: 3px;
