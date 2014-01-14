@@ -38,11 +38,11 @@
       <div id="bpsChecking" class="category">Business Checking<a href="#/bpsCheckingCategoryButton"><div id="bpsCheckingCategoryButton" class="radioButton"></div></a></div>
       <div id="bpsSavings" class="category">Business Savings<a href="#/bpsSavingsCategoryButton"><div id="bpsSavingsCategoryButton" class="radioButton"></div></a></div>
       <div id="bpsServices" class="category">Business Services Solutions<a href="#/bpsSolutionsCategoryButton"><div id="bpsSolutionsCategoryButton" class="radioButton"></div></a></div>
-      <div id="bpsServices" class="category">Misc. Services<a href="#/bpsServicesCategoryButton"><div id="bpsServicesCategoryButton" class="radioButton"></div></a></div>
+      <div id="bpsServices" class="category">Electronic Services<a href="#/bpsServicesCategoryButton"><div id="bpsServicesCategoryButton" class="radioButton"></div></a></div>
     </div>
     
     <div id="ppsOptionsChecking">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Personal Products and Services</h1>
       <p style="clear: left;color: #00704a;">CHECKING</p>
       <p class="pleaseChoose">Please select at least 1</p>
@@ -59,7 +59,7 @@
     </div>
     
     <div id="ppsOptionsSavings">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Personal Products and Services</h1>
       <p style="clear: left;color: #00704a;">SAVINGS</p>
       <p class="pleaseChoose">Please select at least 1</p>
@@ -80,7 +80,7 @@
     </div>
     
     <div id="ppsOptionsLoans">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Personal Products and Services</h1>
       <p style="clear: left;color: #00704a;">LOANS</p>
       <p class="pleaseChoose">Please select at least 1</p>
@@ -97,7 +97,7 @@
     </div>
     
     <div id="ppsOptionsServices">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Personal Products and Services</h1>
       <p style="clear: left;color: #00704a;">ELECTRONIC SERVICES</p>
       <p class="pleaseChoose">Please select at least 1</p>
@@ -119,7 +119,7 @@
     </div>
     
     <div id="bpsOptionsChecking">
-      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Business Products and Services</h1>
       <p style="clear: left;color: #00704a;">CHECKING</p>
       <p class="pleaseChoose">Please select at least 1</p>
@@ -136,7 +136,7 @@
     </div>
     
     <div id="bpsOptionsSavings">
-      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Business Products and Services</h1>
       <p style="clear: left;color: #00704a;">SAVINGS</p>
       <p class="pleaseChoose">Please select at least 1</p>
@@ -152,16 +152,16 @@
     </div>
     
     <div id="bpsOptionsServices">
-      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Business Products and Services</h1>
-      <p style="clear: left;color: #00704a;">MISC. SERVICES</p>
+      <p style="clear: left;color: #00704a;">ELECTRONIC SERVICES</p>
       <p class="pleaseChoose">Please select at least 1</p>
       <ul style="width: 220px;margin: 0 auto;padding-bottom: 50px;font-size: 14px;">
       <li class="option"><div id="fidelityTelephoneLinkOption" class="bpsServicesCheckBox"></div>Fidelity Telephone Link</li>
       <!--<li class="option"><div id="mobileMoneyOption" class="bpsServicesCheckBox"></div>Mobile Money</li>-->
-      <li class="option"><div id="onlineBankingOption" class="bpsServicesCheckBox"></div>Business Online Banking</li>
+      <li class="option"><div id="onlineBankingOption" class="bpsServicesCheckBox"></div>Online Banking</li>
       <!--<li class="option"><div id="popMoneyOption" class="bpsServicesCheckBox"></div>Pop Money</li>-->
-      <li class="option"><div id="webBillPayOption" class="bpsServicesCheckBox"></div>Business Web Bill Pay</li>
+      <li class="option"><div id="webBillPayOption" class="bpsServicesCheckBox"></div>Web Bill Pay</li>
       <li class="option"><div id="wireTransfersOption" class="bpsServicesCheckBox"></div>Wire Transfers</li>
       </ul>
       
@@ -169,9 +169,9 @@
     </div>
     
     <div id="bpsOptionsSolutions">
-      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
+      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
       <h1 style="float: left;">Business Products and Services</h1>
-      <p style="clear: left;color: #00704a;">BUSINESS SERVICES SOLUTIONS</p>
+      <p style="clear: left;color: #00704a;">SERVICE SOLUTIONS</p>
       <table id="bpsSolutionsComparisonTable" style="clear: both;">
       <ul id="bpsSolutionsList" style="width: 300px;margin: 0 auto;padding-bottom: 50px;font-size: 14px;">
       <li class="option"><a href="http://bankatfidelity.com/displayPage.aspx?id=121"><div class="bpsSolutionsCheckBox"></div>Credit Card Processing</a></li>
@@ -191,49 +191,49 @@
     </div>
     
     <div id="ppsCheckingComparison">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
-      <h1 style="float: left;">Personal Products and Services</h1><h2 style="clear: both;margin: 0 auto;color: #00704a;">CHECKING</h2>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
+      <h1 style="float: left;">Personal Products and Services</h1><h2 style="float: left;color: #00704a;padding: 10px 20px;">CHECKING</h2>
       
       <table id="ppsCheckingComparisonTable" style="clear: both;">
       
       <tr>
       <th class="accountRequirements">Account Requirements</th>
       <th class="classicChoiceCheckingComparisonInfo">CLASSIC CHOICE CHECKING</th>
-      <th class="fidelityChoiceCheckingComparisonInfo">FIDELITY CHOICE CHECKING</th>
+      <th class="fidelityChoiceCheckingComparisonInfo">FIDEITY CHOICE CHECKING</th>
       <th class="freeCheckingComparisonInfo">FREE CHECKING</th>
       <th class="freeSeniorCheckingComparisonInfo">FREE SENIOR CHECKING</th>
-      <th class="freeStudentCheckingComparisonInfo">FREE STUDENT CHECKING<br>(Available to students up to age 23)</th>
+      <th class="freeStudentCheckingComparisonInfo">FREE STUDENT CHECKING</th>
       <th class="greenChoiceCheckingComparisonInfo">GREEN CHOICE CHECKING</th>
       </tr>
       
       <tr>
         <td class="accountRequirements">Minimum opening deposit</td>
-        <td class="classicChoiceCheckingComparisonInfo">$25.00</td>
-        <td class="fidelityChoiceCheckingComparisonInfo">$25.00</td>
-        <td class="freeCheckingComparisonInfo">$25.00</td>
-        <td class="freeSeniorCheckingComparisonInfo">$25.00</td>
-        <td class="freeStudentCheckingComparisonInfo">$25.00</td>
-        <td class="greenChoiceCheckingComparisonInfo">$25.00</td>
+        <td class="classicChoiceCheckingComparisonInfo">$25</td>
+        <td class="fidelityChoiceCheckingComparisonInfo">$25</td>
+        <td class="freeCheckingComparisonInfo">$25</td>
+        <td class="freeSeniorCheckingComparisonInfo">$25</td>
+        <td class="freeStudentCheckingComparisonInfo">$25</td>
+        <td class="greenChoiceCheckingComparisonInfo">$25</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Balance requirements</td>
-        <td class="classicChoiceCheckingComparisonInfo">$2,500.00 minimum daily balance contained within a Classic Choice Checking account and any savings accounts, Money Market accounts, CDs, Consumer Loans, Home Equity Loans or Lines of Credit</td>
-        <td class="fidelityChoiceCheckingComparisonInfo">$10,000.00 minimum daily balance contained within a Fidelity Choice Checking account and any Savings accounts, Money Market accounts, CDs, Consumer Loans, Home Equity Loans or Lines of Credit</td>
-        <td class="freeCheckingComparisonInfo">$0.00</td>
-        <td class="freeSeniorCheckingComparisonInfo">$0.00</td>
-        <td class="freeStudentCheckingComparisonInfo">$0.00</td>
-        <td class="greenChoiceCheckingComparisonInfo">$2,500.00 minimum daily balance contained within a Green Choice Checking account and any savings accounts, Money Market accounts, CDs, Consumer Loans, Home Equity Loans or Lines of Credit</td>
+        <td class="classicChoiceCheckingComparisonInfo">$2,500 minimum daily balance contained within a Classic Choice Checking account and any savings accounts, Money Market accounts, CDs, Consumer Loans, Home Equity Loans or Lines of Credit</td>
+        <td class="fidelityChoiceCheckingComparisonInfo">$10,000 minimum daily balance contained within a Fidelity Choice Checking and any Savings accounts, Money Market accounts, CDs, Consumer Loans, Home Equity Loans or Lines of Credit</td>
+        <td class="freeCheckingComparisonInfo">$0</td>
+        <td class="freeSeniorCheckingComparisonInfo">$0</td>
+        <td class="freeStudentCheckingComparisonInfo">$0</td>
+        <td class="greenChoiceCheckingComparisonInfo">$2,500 minimum daily balance contained within a Green Choice Checking account and any savings accounts, Money Market accounts, CDs, Consumer Loans, Home Equity Loans or Lines of Credit</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Monthly service charge</td>
-        <td class="classicChoiceCheckingComparisonInfo">$20.00 if balance falls below requirement</td>
-        <td class="fidelityChoiceCheckingComparisonInfo">$25.00 if balance falls below requirement</td>
-        <td class="greenChoiceCheckingComparisonInfo">$10.00 if balance falls below requirement</td>
-        <td class="freeSeniorCheckingComparisonInfo">$0.00</td>
-        <td class="freeStudentCheckingComparisonInfo">$0.00</td>
-        <td class="freeCheckingComparisonInfo">$0.00</td>
+        <td class="classicChoiceCheckingComparisonInfo">$20 if balance falls below requirement</td>
+        <td class="fidelityChoiceCheckingComparisonInfo">$25 if balance falls below requirement</td>
+        <td class="greenChoiceCheckingComparisonInfo">$10 if balance falls below requirement</td>
+        <td class="freeSeniorCheckingComparisonInfo">$0</td>
+        <td class="freeStudentCheckingComparisonInfo">$0</td>
+        <td class="freeCheckingComparisonInfo">$0</td>
       </tr>
       
       <tr>
@@ -248,12 +248,12 @@
       
       <tr>
         <td class="accountRequirements">Certificate of Deposit rate bonuses</td>
-        <td class="classicChoiceCheckingComparisonInfo">May Apply</td>
-        <td class="fidelityChoiceCheckingComparisonInfo">May Apply</td>
+        <td class="classicChoiceCheckingComparisonInfo">Yes</td>
+        <td class="fidelityChoiceCheckingComparisonInfo">Yes</td>
         <td class="freeCheckingComparisonInfo">N/A</td>
         <td class="freeSeniorCheckingComparisonInfo">N/A</td>
         <td class="freeStudentCheckingComparisonInfo">N/A</td>
-        <td class="greenChoiceCheckingComparisonInfo">May Apply</td>
+        <td class="greenChoiceCheckingComparisonInfo">Yes</td>
       </tr>
       
       <tr>
@@ -282,7 +282,7 @@
         <td class="fidelityChoiceCheckingComparisonInfo">$1.00 per transaction; Two (2) charges per month per card reimbursed.</td>
         <td class="freeCheckingComparisonInfo">$1.00/transaction</td>
         <td class="freeSeniorCheckingComparisonInfo">$1.00/transaction</td>
-        <td class="freeStudentCheckingComparisonInfo">Fee waived</td>
+        <td class="freeStudentCheckingComparisonInfo">Waived</td>
         <td class="greenChoiceCheckingComparisonInfo">$1.00 per transaction; Two (2) charges per month per card reimbursed.</td>
       </tr>
       
@@ -322,7 +322,7 @@
         <td class="fidelityChoiceCheckingComparisonInfo">Optional</td>
         <td class="freeCheckingComparisonInfo">Optional</td>
         <td class="freeSeniorCheckingComparisonInfo">Optional</td>
-        <td class="freeStudentCheckingComparisonInfo">Required. Otherwise, $3.00/month fee for paper statements.</td>
+        <td class="freeStudentCheckingComparisonInfo">Required</td>
         <td class="greenChoiceCheckingComparisonInfo">Required*</td>
       </tr>
       
@@ -331,19 +331,19 @@
         <td class="classicChoiceCheckingComparisonInfo">One (1) Savings Account</td>
         <td class="fidelityChoiceCheckingComparisonInfo">One (1) Savings Account</td>
         <td class="freeCheckingComparisonInfo">N/A</td>
-        <td class="freeSeniorCheckingComparisonInfo">N/A</td>
+        <td class="freeSeniorCheckingComparisonInfo">Free</td>
         <td class="freeStudentCheckingComparisonInfo">N/A</td>
         <td class="greenChoiceCheckingComparisonInfo">One (1) Savings Account</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Overdraft Protection</td>
-        <td class="classicChoiceCheckingComparisonInfo">Set up or transfer fee waived.</td>
-        <td class="fidelityChoiceCheckingComparisonInfo">Set up or transfer fee waived.</td>
+        <td class="classicChoiceCheckingComparisonInfo">No set up or transfer fee.</td>
+        <td class="fidelityChoiceCheckingComparisonInfo">No set up or transfer fee.</td>
         <td class="freeCheckingComparisonInfo">Set up fee = $15.00<br />Transfer fee = $10.00</td>
         <td class="freeSeniorCheckingComparisonInfo">Set up fee = $15.00<br />Transfer fee = $10.00</td>
         <td class="freeStudentCheckingComparisonInfo">Set up fee = $15.00<br />Transfer fee = $10.00</td>
-        <td class="greenChoiceCheckingComparisonInfo">Set up or transfer fee waived.</td>
+        <td class="greenChoiceCheckingComparisonInfo">No set up or transfer fee.</td>
       </tr>
       
       <tr>
@@ -352,11 +352,11 @@
         <td class="fidelityChoiceCheckingComparisonInfo">Recommended for more immediate funds availability.</td>
         <td class="freeCheckingComparisonInfo">Recommended for more immediate funds availability.</td>
         <td class="freeSeniorCheckingComparisonInfo">Recommended for more immediate funds availability</td>
-        <td class="freeStudentCheckingComparisonInfo">Recommended for more immediate funds availability.</td>
+        <td class="freeStudentCheckingComparisonInfo">N/A</td>
         <td class="greenChoiceCheckingComparisonInfo">Recommended for more immediate funds availability.</td>
       </tr>
       
-      <!--<tr>
+      <tr>
         <td class="accountRequirements">Other Features</td>
         <td class="classicChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks<br />7. BuzzPoints Debit Card Rewards<br />8. PopMoney person-to-person payments<br />9. Mobile Money</td>
         <td class="fidelityChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks<br />7. BuzzPoints Debit Card Rewards<br />8. PopMoney person-to-person payments<br />9. Mobile Money</td>
@@ -365,7 +365,7 @@
         <td class="freeStudentCheckingComparisonInfo">Available to students up to age 23<br />1. BuzzPoints Debit Card Rewards<br />2. PopMoney person-to-person payments<br />3. Mobile Money</td>
         <td class="greenChoiceCheckingComparisonInfo">1. $10 stop payments (reduced fee)<br />2. $300 off closing costs on Mortgage Loans<br />3. Free check imaging available<br />4. First year free and 50% discount annually thereafter on Safe Deposit Box<br />5. Free Personal Wealth Management Consultation<br />6. No charge for money orders and cashiers checks<br />7. BuzzPoints Debit Card Rewards<br />8. PopMoney person-to-person payments<br />9. Mobile Money<br />*$3.00 per month for paper statements.</td>
       </tr>
-      -->
+      
       <tr>
         <td></td>
         <td class="classicChoiceCheckingComparisonInfo openAccount"><a href="https://fidelitybank.andera.com/index.cfm?fiid=F9FD6DF6468842CABA9B8B084A01D60D">Open an Account Now!</a></td>
@@ -379,8 +379,8 @@
     </div>
     
     <div id="ppsLoansComparison">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
-      <h1 style="float: left;">Personal Products and Services</h1><h2 style="clear: both;margin: 0 auto;color: #00704a;">LOANS</h2>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
+      <h1 style="float: left;">Personal Products and Services</h1><h2 style="float: left;color: #00704a;padding: 10px 20px;">LOANS</h2>
       
       <table id="ppsLoansComparisonTable" style="clear: both;">
       
@@ -408,8 +408,8 @@
     </div>
     
     <div id="ppsSavingsComparison">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
-      <h1 style="float: left;">Personal Products and Services</h1><h2 style="clear: both;margin: 0 auto;color: #00704a;">SAVINGS</h2>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
+      <h1 style="float: left;">Personal Products and Services</h1><h2 style="float: left;color: #00704a;padding: 10px 20px;">SAVINGS</h2>
       
       <table id="ppsSavingsComparisonTable" style="clear: both;">
       
@@ -429,13 +429,13 @@
       
       <tr>
         <td class="accountRequirements">Minimum opening deposit</td>
-        <td class="advantageMoneyMarketComparisonInfo">$2,500.00</td>
+        <td class="advantageMoneyMarketComparisonInfo">$2,500</td>
         <td class="allPurposeClubComparisonInfo">$5.00</td>
-        <td class="choiceMoneyMarketComparisonInfo">$2,500.00</td>
-        <td class="choicePerformanceSavingsComparisonInfo">A deposit of at least $5,000.00 not currently on deposit with Fidelity Bank.</td>
+        <td class="choiceMoneyMarketComparisonInfo">$2,500</td>
+        <td class="choicePerformanceSavingsComparisonInfo">A deposit of at least $5,000 not currently on deposit with Fidelity Bank.</td>
         <td class="christmasClubComparisonInfo">$1.00</td>
         <td class="greenTeamSavingsComparisonInfo">$1.00</td>
-        <td class="moneyMarketComparisonInfo">$1,000.00</td>
+        <td class="moneyMarketComparisonInfo">$1,000</td>
         <td class="optimumChoiceSavingsComparisonInfo">$100.00</td>
         <td class="statementSavingsComparisonInfo">$100.00</td>
         <td class="scholarSavingsComparisonInfo">$25.00</td>
@@ -443,13 +443,13 @@
       
       <tr>
         <td class="accountRequirements">Minimim daily balance requirements</td>
-        <td class="advantageMoneyMarketComparisonInfo">$2,500.00 to obtain the Annual Percentage Yield (APY)*</td>
+        <td class="advantageMoneyMarketComparisonInfo">$2,500 to obtain the Annual Percentage Yield (APY)*</td>
         <td class="allPurposeClubComparisonInfo">N/A</td>
-        <td class="choiceMoneyMarketComparisonInfo">$2,500.00 to obtain the Annual Percentage Yield (APY)*</td>
-        <td class="choicePerformanceSavingsComparisonInfo">$5,000.00 to obtain the APY*</td>
+        <td class="choiceMoneyMarketComparisonInfo">$2,500 to obtain the Annual Percentage Yield (APY)*</td>
+        <td class="choicePerformanceSavingsComparisonInfo">$5,000 to obtain the APY*</td>
         <td class="christmasClubComparisonInfo">N/A</td>
         <td class="greenTeamSavingsComparisonInfo">$1.01 to obtain APY*</td>
-        <td class="moneyMarketComparisonInfo">$2,500.00 to obtain the Annual Percentage Yield (APY)*</td>
+        <td class="moneyMarketComparisonInfo">$2,500 to obtain the Annual Percentage Yield (APY)*</td>
         <td class="optimumChoiceSavingsComparisonInfo">$100.00 to obtain the APY*</td>
         <td class="statementSavingsComparisonInfo">$100.00 to obtain the APY*</td>
         <td class="scholarSavingsComparisonInfo">$50.00 to obtain APY*</td>
@@ -457,15 +457,15 @@
       
       <tr>
         <td class="accountRequirements">Monthly service charge</td>
-        <td class="advantageMoneyMarketComparisonInfo">$2,500.00 and Over - $0.00<br />Below $2,500.00 - $15.00</td>
+        <td class="advantageMoneyMarketComparisonInfo">$2,500 and Over - $0<br />Below $2,500 - $15.00</td>
         <td class="allPurposeClubComparisonInfo">$0.00</td>
-        <td class="choiceMoneyMarketComparisonInfo">$2,500.00 and Over - $0.00<br />Below $2,500.00 - $15.00</td>
-        <td class="choicePerformanceSavingsComparisonInfo">$2,500.00 and over = $0.00<br />$0.00 to $2,499.99 = $15.00</td>
+        <td class="choiceMoneyMarketComparisonInfo">$2,500 and Over - $0<br />Below $2,500 - $15.00</td>
+        <td class="choicePerformanceSavingsComparisonInfo">$2,500 and over = $0<br />$0.00 to $2,499.99 = $15.00</td>
         <td class="christmasClubComparisonInfo">$0.00</td>
-        <td class="greenTeamSavingsComparisonInfo">$0.00</td>
-        <td class="moneyMarketComparisonInfo">$2,500.00 and Over - $0.00<br />Below $2,500.00 - $15.00</td>
-        <td class="optimumChoiceSavingsComparisonInfo">$100.00 and over = $0.00<br />$0.00 to $99.99 = $2.00</td>
-        <td class="statementSavingsComparisonInfo">$100.00 and over = $0.00<br />$0.00 to $99.99 = $2.00</td>
+        <td class="greenTeamSavingsComparisonInfo">$0</td>
+        <td class="moneyMarketComparisonInfo">$2,500 and Over - $0<br />Below $2,500 - $15.00</td>
+        <td class="optimumChoiceSavingsComparisonInfo">$100 and over = $0<br />$0.00 to $99.99 = $2.00</td>
+        <td class="statementSavingsComparisonInfo">$100 and over = $0<br />$0.00 to $99.99 = $2.00</td>
         <td class="scholarSavingsComparisonInfo">$0.00</td>
       </tr>
       
@@ -499,25 +499,25 @@
       
       <tr>
         <td class="accountRequirements">Eligibility</td>
-        <td class="advantageMoneyMarketComparisonInfo">Any customer.</td>
-        <td class="allPurposeClubComparisonInfo">Any customer.</td>
-        <td class="choiceMoneyMarketComparisonInfo">Any Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking account) customer.</td>
-        <td class="choicePerformanceSavingsComparisonInfo">Any Fidelity Choice Banking (Classic, Fidelity or Green Choice account) customer.</td>
-        <td class="christmasClubComparisonInfo">Any customer.</td>
-        <td class="greenTeamSavingsComparisonInfo">Any child 18 years of age and younger.</td>
-        <td class="moneyMarketComparisonInfo">Any customer.</td>
-        <td class="optimumChoiceSavingsComparisonInfo">Any customer.</td>
+        <td class="advantageMoneyMarketComparisonInfo">Any</td>
+        <td class="allPurposeClubComparisonInfo">Any</td>
+        <td class="choiceMoneyMarketComparisonInfo">Any Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) account customer.</td>
+        <td class="choicePerformanceSavingsComparisonInfo">Any Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) customer.</td>
+        <td class="christmasClubComparisonInfo">Any</td>
+        <td class="greenTeamSavingsComparisonInfo">Open to any child 18 years of age and younger.</td>
+        <td class="moneyMarketComparisonInfo">Open to any Fidelity Bank customer.</td>
+        <td class="optimumChoiceSavingsComparisonInfo">Any personal or business customer</td>
         <td class="scholarSavingsComparisonInfo">Youth, high school and college students up to age 23.</td>
-        <td class="statementSavingsComparisonInfo">Any customer.</td>
+        <td class="statementSavingsComparisonInfo">Open to any Fidelity Bank customer.</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Special Notes</td>
         <td class="advantageMoneyMarketComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
-        <td class="allPurposeClubComparisonInfo">Term is 52 weeks.<br />Early withdraw penalty is the greater of $5.00 or seven (7) days interest on the amount withdrawn.<br />Account may only be funded through automatic debit of a Fidelity Bank Checking account.</td>
+        <td class="allPurposeClubComparisonInfo">Term is 52 weeks<br />Early withdraw penalty is the greater of $5.00 or seven (7) days interest on the amount withdrawn</td>
         <td class="choiceMoneyMarketComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.<br /></td>
         <td class="choicePerformanceSavingsComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
-        <td class="christmasClubComparisonInfo">Term is 50 weeks<br />Early withdraw penalty is the greater of $5.00 or seven (7) days interest on the amount withdrawn.<br />Account may only be funded through automatic debit of a Fidelity Bank Checking account.</td>
+        <td class="christmasClubComparisonInfo">Term is 50 weeks<br />Early withdraw penalty is the greater of $5.00 or seven (7) days interest on the amount withdrawn</td>
         <td class="greenTeamSavingsComparisonInfo">*APY (Annual Percentage Yield)<br />Rate may change at any time, including after account is opened.<br />Any child that opens a new Green Team Savings Account will receive a free piggy bank as well as invitations to exclusive Green Team events throughout the year.<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.<br />Once per year, the account will receive a cash deposit equal to 1.00% of the current balance as of the last day of the anniversary month the account was opened, paid to the account on the 15th day of the following month. Maximum cash payout is $10.00 per year. Bonus payout expires when primary owner listed on the account reaches age 19.</td>
         <td class="moneyMarketComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
         <td class="optimumChoiceSavingsComparisonInfo">Fees may reduce earnings.<br />Rate may change at any time, including after account is opened.<br />*APY - Annual Percentage Yield<br />Regulation D Transaction Limitations – Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers from your account per calendar month.</td>
@@ -542,8 +542,8 @@
     </div>
     
     <div id="ppsServicesComparison">
-      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
-      <h1 style="float: left;">Personal Products and Services</h1><br><h2 style="clear: both;margin: 0 auto;color: #00704a;">SERVICES</h2>
+      <img src="ppsSmallest.png" id="ppsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
+      <h1 style="float: left;">Personal Products and Services</h1><h2 style="float: left;color: #00704a;padding: 10px 20px;">SERVICES</h2>
       
       <table id="ppsServicesComparisonTable" style="clear: both;">
       
@@ -564,22 +564,22 @@
       
       <tr>
         <td class="accountRequirements">Fees</td>
-        <td class="cashiersChecksComparisonInfo">$10.00 per check; waived on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) accounts.</td>
-        <td class="ezStatementComparisonInfo">Free</td>
-        <td class="fidelityTelephoneLinkComparisonInfo">Free</td>
-        <td class="fidelityVisaCheckCardComparisonInfo">$1.00 per month; waived on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) accounts.</td>
-        <td class="mobileMoneyComparisonInfo">Free. Cell phone providers may charge additional fees for web access and/ or text messaging.</td>
-        <td class="moneyOrdersComparisonInfo">$5.00 per order. Waived on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) accounts.</td>
-        <td class="onlineBankingComparisonInfo">Free</td>
-        <td class="overdraftProtectionComparisonInfo">$10.00/transfer from a Fidelity Bank checking or savings account. Fee waived on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) accounts.</td>
-        <td class="popMoneyComparisonInfo">$0.50 per transaction (Transfers)<br />$0.00- $249.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.50 per request (Request Money)<br />$250.00- $999.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.75 per request<br />$1,000.00 and up &nbsp;&nbsp;-&nbsp;&nbsp; $1.50 per request</td>
-        <td class="webBillPayComparisonInfo">$6.00 per month per user for personal accounts;<br />Free when at least two (2) bills per month are paid online.</td>
-        <td class="wireTransfersComparisonInfo">$15.00 per request plus related fees (Incoming)<br />$30.00 per request (Domestic Outgoing)<br />$45.00 per request plus related fees (Foreign Outgoing)</td>
+        <td class="cashiersChecksComparisonInfo">$10 per check; waived on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking)  accounts.</td>
+        <td class="ezStatementComparisonInfo">None. Required on Green Choice and Free Student Checking accounts.</td>
+        <td class="fidelityTelephoneLinkComparisonInfo">Stop Payment Request- Fidelity Telephone Link - $10 per request.</td>
+        <td class="fidelityVisaCheckCardComparisonInfo">$1 per month; waived on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking)  accounts.</td>
+        <td class="mobileMoneyComparisonInfo">None; Cell phone providers may charge additional fees for web access and/ or text messaging.</td>
+        <td class="moneyOrdersComparisonInfo">$5 per order. Waived on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) accounts.</td>
+        <td class="onlineBankingComparisonInfo">None</td>
+        <td class="overdraftProtectionComparisonInfo">$15 set up; $10 per transfer. Waived on all Fidelity Choice Banking accounts.</td>
+        <td class="popMoneyComparisonInfo">$0.50 per transaction (Transfers)<br />$0- $249.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.50 per request (Request Money)<br />$250- $999.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.75 per request<br />$1,000 and up &nbsp;&nbsp;-&nbsp;&nbsp; $1.50 per request</td>
+        <td class="webBillPayComparisonInfo">$6 per month per user for personal accounts;<br />Free when at least two (2) bills per month are paid online.</td>
+        <td class="wireTransfersComparisonInfo">$15 per request plus related fees (Incoming)<br />$30 per request (Domestic Outgoing)<br />$45 per request plus related fees (Foreign Outgoing)</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Eligibility</td>
-        <td class="cashiersChecksComparisonInfo">Must be a Fidelity Bank customer.</td>
+        <td class="cashiersChecksComparisonInfo">Any customer</td>
         <td class="ezStatementComparisonInfo">Any customer enrolled in Online Banking</td>
         <td class="fidelityTelephoneLinkComparisonInfo">Any customer</td>
         <td class="fidelityVisaCheckCardComparisonInfo">Any customer with any checking account</td>
@@ -600,12 +600,12 @@
         <td class="fidelityVisaCheckCardComparisonInfo">
             <table><tr><td>Non Fidelity Bank ATM Usage</td><td>Two (2) charges reimbursed per month per check card holder on all Fidelity Choice Banking (Classic, Fidelity or Green Choice Checking) accounts; waived on Free Student Checking accounts and Scholar Savings accounts.</td></tr>
             <tr><td><br />International Purchases and Cash Advances</td><td><br />3% of transaction amount</td></tr>
-            <tr><td><br />Loan Payment made by credit/ debit card</td><td><br />$15.00 per payment</td></tr>
-            <tr><td><br />Replacement Fee</td><td><br />$5.00 per request</td></tr></table>
+            <tr><td><br />Loan Payment made by credit/ debit card</td><td><br />$15 per payment</td></tr>
+            <tr><td><br />Replacement Fee</td><td><br />$5 per request</td></tr></table>
         </td>
         <td class="mobileMoneyComparisonInfo">Mobile Devices Supported - Operating systems including Apple, Android, iOS, Symbian, Windows Mobile, Linux, Palm webOS and Maemo.</td>
         <td class="moneyOrdersComparisonInfo">N/A</td>
-        <td class="onlineBankingComparisonInfo">EZ Statements must be accessed via Online Banking. Must have a valid Social Security number or EIN.</td>
+        <td class="onlineBankingComparisonInfo">EZ Statements must be accessed via Online Banking</td>
         <td class="overdraftProtectionComparisonInfo">N/A</td>
         <td class="popMoneyComparisonInfo">N/A</td>
         <td class="webBillPayComparisonInfo">N/A</td>
@@ -616,13 +616,13 @@
     </div>
     
     <div id="bpsCheckingComparison">
-      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
-      <h1 style="float: left;">Business Products and Services</h1><h2 style="clear: both;margin: 0 auto;color: #00704a;">CHECKING</h2>
+      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
+      <h1 style="float: left;">Business Products and Services</h1><h2 style="float: left;color: #00704a;padding: 10px 20px;">CHECKING</h2>
       
       <table id="bpsCheckingComparisonTable" style="clear: both;">
       
       <tr>
-      <th class="accountRequirements">Account requirements</th>
+      <th class="accountRequirements">Account Requirements</th>
       <th class="businessAnalysisCheckingComparisonInfo">Business Analysis Checking</th>
       <th class="businessInterestCheckingComparisonInfo">Business Interest Checking</th>
       <th class="communityFirstNonProfitCheckingComparisonInfo">Community First<br />Non Profit Checking</th>
@@ -634,51 +634,51 @@
       <tr>
         <td class="accountRequirements">Minimum daily balance</td>
         <td class="businessAnalysisCheckingComparisonInfo">No minimum balance required</td>
-        <td class="businessInterestCheckingComparisonInfo">$2,500.00</td>
+        <td class="businessInterestCheckingComparisonInfo">$2,500</td>
         <td class="communityFirstNonProfitCheckingComparisonInfo">None</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">$2,500.00</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">$2,500</td>
         <td class="freeBusinessCheckingComparisonInfo">No minimum balance required</td>
-        <td class="IOLTACheckingComparisonInfo">$0.00</td>
+        <td class="IOLTACheckingComparisonInfo">None</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Monthly service charge</td>
         <td class="businessAnalysisCheckingComparisonInfo">Earnings Credit *</td>
-        <td class="businessInterestCheckingComparisonInfo">$10.00 (If balance falls below requirement.)</td>
+        <td class="businessInterestCheckingComparisonInfo">$10 (if balance falls below requirement.)</td>
         <td class="communityFirstNonProfitCheckingComparisonInfo">None</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">$25.00 (If balance falls below requirement.)</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">$25 (if balance falls below requirement.)</td>
         <td class="freeBusinessCheckingComparisonInfo">None</td>
-        <td class="IOLTACheckingComparisonInfo">$0.00</td>
+        <td class="IOLTACheckingComparisonInfo">None</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Minimum to open</td>
-        <td class="businessAnalysisCheckingComparisonInfo">$1,000.00</td>
-        <td class="businessInterestCheckingComparisonInfo">$100.00</td>
-        <td class="communityFirstNonProfitCheckingComparisonInfo">$100.00</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">$2,500.00</td>
-        <td class="freeBusinessCheckingComparisonInfo">$100.00</td>
-        <td class="IOLTACheckingComparisonInfo">$100.00</td>
+        <td class="businessAnalysisCheckingComparisonInfo">$1,000</td>
+        <td class="businessInterestCheckingComparisonInfo">$100</td>
+        <td class="communityFirstNonProfitCheckingComparisonInfo">$100</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">$2,500</td>
+        <td class="freeBusinessCheckingComparisonInfo">$100</td>
+        <td class="IOLTACheckingComparisonInfo">$100</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Interest paid on account</td>
         <td class="businessAnalysisCheckingComparisonInfo">N/A</td>
-        <td class="businessInterestCheckingComparisonInfo">Yes. Must maintain a minimum daily balance of at least $2,500.00.</td>
-        <td class="communityFirstNonProfitCheckingComparisonInfo">Yes. Must maintain a minimum daily balance of at least $2,500.00.</td>
+        <td class="businessInterestCheckingComparisonInfo">Yes. Must maintain a minimum daily balance of at least $2,500.</td>
+        <td class="communityFirstNonProfitCheckingComparisonInfo">Yes. Must maintain a minimum daily balance of at least $2,500.</td>
         <td class="fidelityMuniChoiceCheckingComparisonInfo">Yes. Rates are tiered according to balances.</td>
         <td class="freeBusinessCheckingComparisonInfo">N/A</td>
-        <td class="IOLTACheckingComparisonInfo">Yes. Must maintain a minimum daily balance of at least $2,500.00.</td>
+        <td class="IOLTACheckingComparisonInfo">Yes. Must maintain a minimum daily balance of at least $2,500.</td>
       </tr>
       
       <tr>
         <td class="accountRequirements">Transaction limits</td>
-        <td class="businessAnalysisCheckingComparisonInfo">N/A</td>
+        <td class="businessAnalysisCheckingComparisonInfo">None. Per item costs apply.</td>
         <td class="businessInterestCheckingComparisonInfo">$0.40 per item over 350</td>
-        <td class="communityFirstNonProfitCheckingComparisonInfo">N/A</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">N/A</td>
+        <td class="communityFirstNonProfitCheckingComparisonInfo">None</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">None</td>
         <td class="freeBusinessCheckingComparisonInfo">N/A</td>
-        <td class="IOLTACheckingComparisonInfo">N/A</td>
+        <td class="IOLTACheckingComparisonInfo">None</td>
       </tr>
       
       <tr>
@@ -703,15 +703,15 @@
       
       <tr>
         <td class="accountRequirements">Per item costs</td>
-        <td class="businessAnalysisCheckingComparisonInfo">Checks drawn- $0.20 ea.<br />Deposit tickets- $0.40 ea.</td>
-        <td class="businessInterestCheckingComparisonInfo">$0.40 per item over 350</td>
+        <td class="businessAnalysisCheckingComparisonInfo">Checks drawn- $0.20 ea.<br />Deposit tickets- $0.40 ea.<br />Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00 ea.<br />Stop payment requests- $10.00 ea.</td>
+        <td class="businessInterestCheckingComparisonInfo">Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00 ea.<br />Stop payment requests- $10.00 ea.</td>
         <td class="communityFirstNonProfitCheckingComparisonInfo">Fees waived</td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo"></td>
-        <td class="freeBusinessCheckingComparisonInfo">$0.40 per item over 350<br />Paper statements- $3.00 ea.</td>
-        <td class="IOLTACheckingComparisonInfo">Uncollected funds- $35.00</td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo">Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00<br />Stop payment requests- $10.00</td>
+        <td class="freeBusinessCheckingComparisonInfo">350 items free per statement cycle free<br />$0.40 per item over 350<br />Paper statements- $3.00 ea.</td>
+        <td class="IOLTACheckingComparisonInfo">Domestic Outgoing Wire Transfers- $30.00<br />Overdrafts- $35.00<br />Stop payment requests- $10.00<br />Uncollected funds- $35.00</td>
       </tr>
       
-      <!--<tr>
+      <tr>
         <td class="accountRequirements">Services offered</td>
         <td class="businessAnalysisCheckingComparisonInfo">Business Services/Cash Management<br />Free Cash Flow Analysis Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Web Bill Pay</td>
         <td class="businessInterestCheckingComparisonInfo">Business Services/Cash Management<br />Free Cash Flow Analysis Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
@@ -720,14 +720,14 @@
         <td class="freeBusinessCheckingComparisonInfo">Free Cash Flow Analysis Consultation<br />Free Online Banking<br />Free  Personal Wealth Management Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Remote Deposit<br />Web Bill Pay</td>
         <td class="IOLTACheckingComparisonInfo">Business Services/Cash Management<br />Free Cash Flow Analysis Consultation<br />Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
       </tr>
-      -->
+      
       <tr>
         <td class="accountRequirements">Special notes</td>
-        <td class="businessAnalysisCheckingComparisonInfo">* Fees may be offset by activity of the account.</td>
-        <td class="businessInterestCheckingComparisonInfo"></td>
+        <td class="businessAnalysisCheckingComparisonInfo">Open a Personal Choice Banking Relationship account and receive $300.00 off mortgage fees, preferred rates on deposits and loans and much more.<br />* Fees may be offset by activity of the account.</td>
+        <td class="businessInterestCheckingComparisonInfo">Open a Personal Choice Banking Relationship account and receive $300.00 off mortgage fees, preferred rates on deposits and loans and much more.<br /><br />
         <td class="communityFirstNonProfitCheckingComparisonInfo"></td>
-        <td class="fidelityMuniChoiceCheckingComparisonInfo">Other public checking account options available. Please see Relationship Manager for further details.<br /></td>
-        <td class="freeBusinessCheckingComparisonInfo"></td>
+        <td class="fidelityMuniChoiceCheckingComparisonInfo"></td>
+        <td class="freeBusinessCheckingComparisonInfo">Open a Personal Choice Banking account and receive $300.00 off mortgage fees, preferred rates on deposits and loans and much more.<br /></td>
         <td class="IOLTACheckingComparisonInfo"></td>
       </tr>
       
@@ -744,8 +744,8 @@
     </div>
     
     <div id="bpsSavingsComparison">
-      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
-      <h1 style="float: left;">Business Products and Services</h1><h2 style="clear: both;margin: 0 auto;color: #00704a;">SAVINGS</h2>
+      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
+      <h1 style="float: left;">Business Products and Services</h1><h2 style="float: left;color: #00704a;padding: 10px 20px;">SAVINGS</h2>
       
       <table id="bpsSavingsComparisonTable" style="clear: both;">
       
@@ -760,8 +760,8 @@
       
       <tr>
         <td class="accountRequirements">Monthly service charge</td>
-        <td class="businessSavingsAccountComparisonInfo">$2.00 if minimum daily balance falls below $100.00.</td>
-        <td class="optimumChoiceSavingsComparisonInfo">$2.00 if minimum daily balance falls below $100.00.</td>
+        <td class="businessSavingsAccountComparisonInfo">$2.00 if minimum daily balance falls below $100.</td>
+        <td class="optimumChoiceSavingsComparisonInfo">$2.00 if minimum daily balance falls below $100.</td>
         <td class="advantageMoneyMarketComparisonInfo">$15.00 if daily balance falls below $2,500.00.</td>
         <td class="businessMoneyMarketComparisonInfo">$15.00 if daily balance falls below $2,500.00.</td>
         <td class="certificatesOfDepositComparisonInfo">-</td>
@@ -769,8 +769,8 @@
       
       <tr>
         <td class="accountRequirements">Minimum to open</td>
-        <td class="businessSavingsAccountComparisonInfo">$100.00</td>
-        <td class="optimumChoiceSavingsComparisonInfo">$100.00</td>
+        <td class="businessSavingsAccountComparisonInfo">$100</td>
+        <td class="optimumChoiceSavingsComparisonInfo">$25,000.00 in new money is required for customers who do not already have an account with Fidelity Bank.<sup>1</sup><br />Existing customers of Fidelity Bank may open the account with no less than $5,000 of the $25,000 in new money.</td>
         <td class="advantageMoneyMarketComparisonInfo">$2,500.00</td>
         <td class="businessMoneyMarketComparisonInfo">$1,000.00</td>
         <td class="certificatesOfDepositComparisonInfo">-</td>
@@ -778,15 +778,15 @@
       
       <tr>
         <td class="accountRequirements">Interest paid on account</td>
-        <td class="businessSavingsAccountComparisonInfo">Yes. Interest compounded and credited to account quarterly on balances that are $100.00. or greater.</td>
-        <td class="optimumChoiceSavingsComparisonInfo">Yes. Interest compounded and credited to account monthly on balances that are $100.00. or greater.</td>
-        <td class="advantageMoneyMarketComparisonInfo">Yes. Interest compounded and credited to account monthly on balances that are $2,500.00 or greater.</td>
-        <td class="businessMoneyMarketComparisonInfo">Yes. Interest compounded and credited to account monthly on balances that are $2,500.00 or greater.</td>
+        <td class="businessSavingsAccountComparisonInfo">Yes. Must maintain a minimum daily balance of at least $100.</td>
+        <td class="optimumChoiceSavingsComparisonInfo">Yes. Must maintain a minimum daily balance of at least $100.</td>
+        <td class="advantageMoneyMarketComparisonInfo">Yes. Interest compounded and credited to account monthly on balances that are $2,500 or greater.</td>
+        <td class="businessMoneyMarketComparisonInfo">Yes. Interest compounded and credited to account monthly on balances that are $2,500 or greater.</td>
         <td class="certificatesOfDepositComparisonInfo">-</td>
       </tr>
       
       <tr>
-        <td class="accountRequirements">Transaction Limits</td>
+        <td class="accountRequirements">Check limit per cycle</td>
         <td class="businessSavingsAccountComparisonInfo">Regulation D Transaction Limitations apply<sup>1</sup></td>
         <td class="optimumChoiceSavingsComparisonInfo">Regulation D Transaction Limitations apply<sup>1</sup></td>
         <td class="advantageMoneyMarketComparisonInfo">Regulation D Transaction Limitations apply<sup>1</sup></td>
@@ -805,8 +805,8 @@
       
       <tr>
         <td class="accountRequirements">Eligibility</td>
-        <td class="businessSavingsAccountComparisonInfo">Any business</td>
-        <td class="optimumChoiceSavingsComparisonInfo">Any business<br />A Fidelity Bank checking account (new or existing) is also required with the Optimum Choice Savings account.</td>
+        <td class="businessSavingsAccountComparisonInfo">Business</td>
+        <td class="optimumChoiceSavingsComparisonInfo">Personal and Business<br />A Fidelity Bank checking account (new or existing) is also required with the Optimum Choice Savings account.<sup>2</sup></td>
         <td class="advantageMoneyMarketComparisonInfo">Any business</td>
         <td class="businessMoneyMarketComparisonInfo">Any business</td>
         <td class="certificatesOfDepositComparisonInfo">-</td>
@@ -821,20 +821,20 @@
         <td class="certificatesOfDepositComparisonInfo">-</td>
       </tr>
       
-      <!--<tr>
+      <tr>
         <td class="accountRequirements">Services offered</td>
         <td class="businessSavingsAccountComparisonInfo">Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
         <td class="optimumChoiceSavingsComparisonInfo">Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
         <td class="advantageMoneyMarketComparisonInfo">Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
         <td class="businessMoneyMarketComparisonInfo">Fidelity at Work<br />Fidelity Visa&reg; Check Card<br />Free Online Banking<br />Free Personal Wealth Management Consultation<br />Remote Deposit<br />Web Bill Pay</td>
         <td class="certificatesOfDepositComparisonInfo">-</td>
-      </tr>-->
+      </tr>
       
       <tr>
         <td class="accountRequirements">Special notes</td>
         <td class="businessSavingsAccountComparisonInfo"><sup>1</sup> Regulation D Transaction Limitations –  Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers per calendar month.</td>
-        <td class="optimumChoiceSavingsComparisonInfo"><sup>1</sup> Regulation D Transaction Limitations –  Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers per calendar month.</td>
-        <td class="advantageMoneyMarketComparisonInfo"><sup>1</sup> Regulation D Transaction Limitations –  Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers per calendar month.<br /><br />Overdraft Protection available.<br /><br />* When at least two (2) bills are paid online per month</td>
+        <td class="optimumChoiceSavingsComparisonInfo"><sup>1</sup> Regulation D Transaction Limitations –  Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers per calendar month.<br />2 "New” money is defined as money which is not currently on deposit with Fidelity Bank. Money that is transferred from an existing Fidelity Bank account is not considered new money.</td>
+        <td class="advantageMoneyMarketComparisonInfo"><sup>1</sup> Regulation D Transaction Limitations –  Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers per calendar month.<br /><br />Overdraft Protection available.<br /><br />* Web Bill Pay free when at least two (2) bills are paid online per month</td>
         <td class="businessMoneyMarketComparisonInfo"><sup>1</sup> Regulation D Transaction Limitations –  Preauthorized transfers including Electronic Fund Transfers, Overdraft Protection using a savings account, check, draft, debit card, point-of-sale or similar order made to a third party are limited to six (6) transfers per calendar month.<br /><br />Overdraft Protection available.<br /><br />* When at least two (2) bills are paid online per month</td>
         <td class="certificatesOfDepositComparisonInfo">-</td>
       </tr>
@@ -851,9 +851,8 @@
     </div>
     
     <div id="bpsServicesComparison">
-      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 175px;padding-right: 10px;"/>
-      <h1 style="float: left;">Business Products and Services</h1>
-      <p style="clear: left;color: #00704a;">MISC. SERVICES</p>
+      <img src="bpsSmallest.png" id="bpsSmallest" style="float: left;padding-left: 150px;padding-right: 10px;"/>
+      <h1 style="float: left;">Business Products and Services</h1><h2 style="float: left;color: #00704a;padding: 10px 20px;">SERVICES</h2>
       
       <table id="bpsServicesComparisonTable" style="clear: both;">
       
@@ -861,30 +860,20 @@
         <th class="accountRequirements">Account Requirements</th>
         <th class="fidelityTelephoneLinkComparisonInfo">Fidelity Telephone Link</th>
         <th class="mobileMoneyComparisonInfo">Mobile Money</th>
-        <th class="onlineBankingComparisonInfo">Business Online Banking</th>
+        <th class="onlineBankingComparisonInfo">Online Banking</th>
         <th class="popMoneyComparisonInfo">Pop Money</th>
-        <th class="webBillPayComparisonInfo">Business Web Bill Pay</th>
+        <th class="webBillPayComparisonInfo">Web Bill Pay</th>
         <th class="wireTransfersComparisonInfo">Wire Transfers</th>
       </tr>
       
       <tr>
-        <td class="accountDescription">Description</td>
-        <td class="fidelityTelephoneLinkComparisonInfo">Handle common banking needs from any touchtone phone, 24 hours a day, 7 days a week.</td>
-        <td class="mobileMoneyComparisonInfo"></td>
-        <td class="onlineBankingComparisonInfo">Access your Business' finances safely and conveniently online.</td>
-        <td class="popMoneyComparisonInfo"></td>
-        <td class="webBillPayComparisonInfo">Make individual or recurring payments on prescheduled dates. Keep track of your business's cash flow safely and conveniently.</td>
-        <td class="wireTransfersComparisonInfo">Transfer large sums of money electronically through this safe, simple and efficient method.</td>
-      </tr>
-      
-      <tr>
         <td class="accountRequirements">Fees</td>
-        <td class="fidelityTelephoneLinkComparisonInfo">Free</td>
+        <td class="fidelityTelephoneLinkComparisonInfo">Stop Payment Request- Fidelity Telephone Link - $10 per request.</td>
         <td class="mobileMoneyComparisonInfo">None; Cell phone providers may charge additional fees for web access and/ or text messaging.</td>
-        <td class="onlineBankingComparisonInfo">Free</td>
-        <td class="popMoneyComparisonInfo">$0.50 per transaction (Transfers)<br />$0- $249.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.50 per request (Request Money)<br />$250.00- $999.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.75 per request<br />$1,000.00 and up &nbsp;&nbsp;-&nbsp;&nbsp; $1.50 per request</td>
+        <td class="onlineBankingComparisonInfo">None</td>
+        <td class="popMoneyComparisonInfo">$0.50 per transaction (Transfers)<br />$0- $249.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.50 per request (Request Money)<br />$250- $999.99 &nbsp;&nbsp;-&nbsp;&nbsp; $0.75 per request<br />$1,000 and up &nbsp;&nbsp;-&nbsp;&nbsp; $1.50 per request</td>
         <td class="webBillPayComparisonInfo">First five bills free; $0.50 every bill thereafter per calendar month</td>
-        <td class="wireTransfersComparisonInfo">$15.00 per request plus related fees (Incoming)<br />$30.00 per request (Domestic Outgoing)<br />$45.00 per request plus related fees (Foreign Outgoing)</td>
+        <td class="wireTransfersComparisonInfo">$15 per request plus related fees (Incoming)<br />$30 per request (Domestic Outgoing)<br />$45 per request plus related fees (Foreign Outgoing)</td>
       </tr>
       
       <tr>
@@ -893,7 +882,7 @@
         <td class="mobileMoneyComparisonInfo">Any customer enrolled in Online Banking.</td>
         <td class="onlineBankingComparisonInfo">Any customer</td>
         <td class="popMoneyComparisonInfo">Any customer enrolled in Online Banking and Web Bill Pay.</td>
-        <td class="webBillPayComparisonInfo">Any customer enrolled in Online Banking</td>
+        <td class="webBillPayComparisonInfo">Any customer enrolled in online banking</td>
         <td class="wireTransfersComparisonInfo">Any customer</td>
       </tr>
       
@@ -901,7 +890,7 @@
         <td class="accountRequirements">Special Notes</td>
         <td class="fidelityTelephoneLinkComparisonInfo">N/A</td>
         <td class="mobileMoneyComparisonInfo">Mobile Devices Supported - Operating systems including Apple, Android, iOS, Symbian, Windows Mobile, Linux, Palm webOS and Maemo.</td>
-        <td class="onlineBankingComparisonInfo">Must have a valid Social Security number or EIN.</td>
+        <td class="onlineBankingComparisonInfo">N/A</td>
         <td class="popMoneyComparisonInfo">N/A</td>
         <td class="webBillPayComparisonInfo">N/A</td>
         <td class="wireTransfersComparisonInfo">N/A</td>

@@ -1,7 +1,7 @@
 html, body, div, span, applet, object, iframe,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, tt, var,
+small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -20,14 +20,6 @@ time, mark, audio, video {
 
 h1 {
   font-weight: normal;
-}
-
-h2 {
-  float: none;
-  margin: 0 auto;
-  clear: both;
-  font-weight: normal;
-  font-size: 18px;
 }
 
 h3 {
@@ -356,10 +348,6 @@ h3 {
   margin: 0 auto;
 }
 
-table {
-  margin: 0 auto;
-}
-
 #bpsSolutionsComparisonTable {
   border-spacing: 10px;
   margin: 0 auto;
@@ -390,11 +378,11 @@ td.freeCheckingComparisonInfo, td.greenChoiceCheckingComparisonInfo, td.freeSeni
 }
 
 th.freeCheckingComparisonInfo, th.greenChoiceCheckingComparisonInfo, th.freeSeniorCheckingComparisonInfo, th.freeStudentCheckingComparisonInfo, th.classicChoiceCheckingComparisonInfo, th.fidelityChoiceCheckingComparisonInfo{
-  height: 30px;
+  height: 50px;
   color: #00704a;
   vertical-align:bottom;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   padding-bottom: 3px;
 }
 
@@ -412,11 +400,11 @@ td.autoLoansLoanOptionComparisonInfo, td.homeEquityLoansLoanOptionComparisonInfo
 }
 
 th.autoLoansLoanOptionComparisonInfo, th.homeEquityLoansLoanOptionComparisonInfo, th.linesOfCreditLoanOptionComparisonInfo, th.mortgageLoansLoanOptionComparisonInfo, th.personalLoansLoanOptionComparisonInfo, th.studentLoansLoanOptionComparisonInfo{
-  height: 30px;
+  height: 50px;
   color: #00704a;
   vertical-align:bottom;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   padding-bottom: 3px;
 }
 
@@ -434,11 +422,11 @@ td.statementSavingsComparisonInfo, td.optimumChoiceSavingsComparisonInfo, td.cho
 }
 
 th.statementSavingsComparisonInfo, th.optimumChoiceSavingsComparisonInfo, th.choicePerformanceSavingsComparisonInfo, th.christmasClubComparisonInfo, th.allPurposeClubComparisonInfo, th.greenTeamSavingsComparisonInfo, th.scholarSavingsComparisonInfo, th.moneyMarketComparisonInfo, th.choiceMoneyMarketComparisonInfo, th.advantageMoneyMarketComparisonInfo{
-  height: 30px;
+  height: 50px;
   color: #00704a;
   vertical-align:bottom;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   padding-bottom: 3px;
 }
 
@@ -456,11 +444,11 @@ td.webBillPayComparisonInfo, td.ezStatementComparisonInfo, td.fidelityTelephoneL
 }
 
 th.webBillPayComparisonInfo, th.ezStatementComparisonInfo, th.fidelityTelephoneLinkComparisonInfo, th.fidelityVisaCheckCardComparisonInfo, th.popMoneyComparisonInfo, th.mobileMoneyComparisonInfo, th.onlineBankingComparisonInfo, th.overdraftProtectionComparisonInfo, th.wireTransfersComparisonInfo, th.moneyOrdersComparisonInfo, th.cashiersChecksComparisonInfo{
-  height: 30px;
+  height: 50px;
   color: #00704a;
   vertical-align:bottom;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   padding-bottom: 3px;
 }
 
@@ -478,11 +466,11 @@ td.businessAnalysisCheckingComparisonInfo, td.businessInterestCheckingComparison
 }
 
 th.businessAnalysisCheckingComparisonInfo, th.businessInterestCheckingComparisonInfo, th.communityFirstNonProfitCheckingComparisonInfo, th.freeBusinessCheckingComparisonInfo, th.IOLTACheckingComparisonInfo, th.fidelityMuniChoiceCheckingComparisonInfo{
-  height: 30px;
+  height: 50px;
   color: #00704a;
   vertical-align:bottom;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   padding-bottom: 3px;
 }
 
@@ -500,11 +488,11 @@ td.businessSavingsAccountComparisonInfo, td.optimumChoiceSavingsComparisonInfo, 
 }
 
 th.businessSavingsAccountComparisonInfo, th.optimumChoiceSavingsComparisonInfo, th.advantageMoneyMarketComparisonInfo, th.businessMoneyMarketComparisonInfo, th.certificatesOfDepositComparisonInfo {
-  height: 30px;
+  height: 50px;
   color: #00704a;
   vertical-align:bottom;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   padding-bottom: 3px;
 }
 
@@ -521,11 +509,11 @@ td.creditCardProcessingComparisonInfo, td.electronicFundsTransfersComparisonInfo
 }
 
 td.creditCardProcessingComparisonInfoFirst, td.electronicFundsTransfersComparisonInfoFirst, td.remoteDepositComparisonInfoFirst, td.wireTransfersSolutionComparisonInfoFirst, td.reloadablePayrollandExpenseCardsComparisonInfoFirst, td.fidelityVisaCreditCardsComparisonInfoFirst, td.fidelityVisaBusinessCheckCardsComparisonInfoFirst, td.positivePayFraudDetectionComparisonInfoFirst, td.CDARSComparisonInfoFirst, td.insuredCashSweepComparisonInfoFirst, td.businessSweepsComparisonInfoFirst, td.businessOnlineBankingComparisonInfoFirst {
-  height: 30px;
+  height: 50px;
   color: #00704a;
   vertical-align: top;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 17px;
   padding-bottom: 3px;
 }
 
@@ -537,7 +525,7 @@ td.creditCardProcessingComparisonInfoFirst, td.electronicFundsTransfersCompariso
 
 th.accountRequirements{
   line-height: 30px;
-  font-size: 13px;
+  font-size: 15px;
   height: 50px;
   margin: 18px 0px;
   vertical-align:bottom;
